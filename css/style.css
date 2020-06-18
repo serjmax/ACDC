@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'Repro-Regular';
+    src: url('../fonts/repro-regular-webfont.eot');
+    src: url('../fonts/repro-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/repro-regular-webfont.woff2') format('woff2'),
+         url('../fonts/repro-regular-webfont.woff') format('woff'),
+         url('../fonts/repro-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* Basic Styles */
+*{
+    font-family: Repro-Regular, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+body{
+    margin: 0;
+    /* padding: 2vw; */
+}
+
+h2{
+    color: #F19300;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    margin-right: 1vw;
+}
+
+a.active{
+    color: #F19300;
+}
+
+/* Head */
+nav{
+    position: fixed;
+    margin-left: 16px;
+    margin-top: 8px;
+}
