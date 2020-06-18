@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="{{ 'css/style.css' | relative_url }}">
 </head>
 <body>
-    {% include header.html %}
-    {{ content }}
+    <div class="wrapper">
+        {% include header.html %}
+        {{ content }}
+    </div>
 </body>
 </html>
