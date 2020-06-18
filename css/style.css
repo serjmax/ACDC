@@ -88,7 +88,8 @@ nav{
 
 /* Wrapper */
 .wrapper{
-    margin: 32px 96px 96px 96px;
+    width: 1280px;
+    margin: 32px auto;
 }
 
 
