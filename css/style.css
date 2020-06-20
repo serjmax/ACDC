@@ -93,8 +93,7 @@ li{
 
 a{
     text-decoration: none;
-    color: black;
-    margin-right: 1vw;
+    color: var(--color-primary);
 }
 
 a.active{
@@ -191,14 +190,21 @@ nav{
 
 .main-col-3{
     width: calc(3 * 144px - 16px);
+    display: flex;
 }
 
 .main-col-4{
     width: calc(4 * 144px - 16px);
+    display: flex;
 }
 
 .main-col-5{
     width: calc(5 * 144px - 16px);
+}
+
+.main-col-6{
+    width: calc(6 * 144px - 16px);
+    display: flex;
 }
 
 .main-col-9{
@@ -208,6 +214,10 @@ nav{
 
 .main-block--block-1--text{
     margin-top: 25px;
+}
+
+.main-factoid-usd70{
+    margin-left: -2px;
 }
 
 .factoid-usd70--text{
@@ -222,4 +232,59 @@ nav{
     font-size: 89px;
     color: var(--color-attention);
     line-height: 96px;
+}
+
+.main-factoid-trainee{
+    display: flex;
+    background-color: #0028683b;
+    padding: 0px 0px 0px 16px;
+    margin-top: -16px;
+    height: 195px;
+}
+
+.factoid-trainee--image{
+    margin-right: 16px;
+}
+
+.main-factoid-insured{
+    display: flex;
+    background-color: #0028683b;
+    padding: 0px 16px 2px 16px;
+    margin-top: 0px;
+}
+
+.factoid-insured--image{
+    margin-right: 16px;
+}
+
+/* FOOTER */
+
+
+
+footer{
+    background-color: var(--color-bg);
+    color: var(--color-primary);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+
+    width: Calc(1280px + 0px);
+    margin: auto;
+    /* padding-left: 16px;
+    padding-right: 16px; */
+    padding-top: 35px;
+    padding-bottom: 32px;
+    margin-top: Calc(16px * 17 + 0px);
+
+    border-top: solid 16px var(--color-primary);
+}
+
+.footer--subtitle{
+    margin-left: 16px;
+}
+
+.footer--contacts{
+
 }
