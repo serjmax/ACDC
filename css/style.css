@@ -18,27 +18,65 @@
 
 }
 
+/* GRID */
+.grid{
+    background: linear-gradient( rgba(255,255,255, 0) 15px, rgba(0, 0, 0, .15) 1px) 0 0, linear-gradient(90deg, rgba(255,255,255, 0) 15px, rgba(0, 0, 0, .15) 1px) 0 0;
+    background-size: 16px 16px;
+    box-sizing: border-box;
+}
+
 
 /* Basic Styles */
+
+:root {
+    --color-primary: #262626;
+    --color-bg: #EFEFEF;
+    --color-attention: #FF3F05;
+  }
+
 *{
     font-family: Repro-Regular, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     line-height: 30px;
-    font-size: 18px;
+    font-size: 24px;
 }
 
 body{
-    background-color: #F0EADC;
+    background-color: var(--color-bg);
+    margin: 0;
+}
+
+h1{
     margin: 0;
 }
 
 h2{
     font-weight: normal;
-    margin-bottom: 0;
+    margin: 0;
+
+    font-family: Repro-Regular, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-size: 58px;
+    line-height: 80px;
+    color: var(--color-primary);
+}
+
+h3{
+    font-weight: normal;
+    margin: 0;
+
+    font-family: Repro-Regular, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-size: 36px;
+    line-height: 44px;
+    color: var(--color-primary);
 }
 
 p{
     margin: 0;
     padding: 0;
+
+    font-size: 24px;
+    line-height: 48px;
 }
 
 ul{
@@ -49,7 +87,8 @@ ul{
 
 li{
     list-style-type: none;
-    display: inline-block;
+    /* display: inline-block; */
+    line-height: 48px;
 }
 
 a{
@@ -62,41 +101,56 @@ a.active{
     color: #F19300;
 }
 
-/* Head */
+.underlined{
+    background-color: var(--color-attention);
+    padding: 6px;
+}
+/* Nav */
 nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
+    position: sticky;
+    top: 0;
+    align-self: flex-start;
+    background-color: #efefef;
+    padding-top: 32px;
 }
 
-.nav--logo{
-
+.nav--logo--name{
+    font-size: 42px;
+    line-height: 36px;
 }
 
-.nav--contacts{
-    display: flex;
-    flex-direction: column;
+.nav--logo--subtitle{
+    font-size: 24px;
+    line-height: 62px;
+}
 
+.nav--contacts--phone{
+    font-size: 42px;
+    line-height: 36px;
+}
+
+.nav--contacts--work-hours{
+    font-size: 24px;
+    line-height: 62px;
     text-align: end;
 }
 
-.nav--contacts li{
-    font-size: 42px;
-    line-height: 42px;
-}
-
-
 /* Wrapper */
+
 .wrapper{
     width: 1280px;
-    margin: 32px auto;
+    margin: auto;
 }
 
 
 /* Main */
 
 .main{
-    margin-top: 128px;
+    margin-top: 133px;
 }
 
 .main--lead{
@@ -105,4 +159,67 @@ nav{
     line-height: 80px;
     font-weight: 600;
     color: #262626;
+}
+
+.main-block{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.main-block__1{
+    margin-top: Calc(16px * 17 + 12px);
+}
+
+.main-block__2{
+    margin-top: Calc(16px * 17 + 7px);
+}
+
+.main-block__3{
+    margin-top: Calc(16px * 17 + 7px);
+}
+
+.main-block__3__list{
+    margin-top: Calc(16px * 2 - 7px);
+    margin-bottom: 3px;
+}
+
+.main-block__3__subtitle{
+    margin-top: Calc(16px * 4 + 0px);
+    margin-bottom: -4px;
+}
+
+.main-col-3{
+    width: calc(3 * 144px - 16px);
+}
+
+.main-col-4{
+    width: calc(4 * 144px - 16px);
+}
+
+.main-col-5{
+    width: calc(5 * 144px - 16px);
+}
+
+.main-col-9{
+    width: calc(9 * 144px);
+    display: flex;
+}
+
+.main-block--block-1--text{
+    margin-top: 25px;
+}
+
+.factoid-usd70--text{
+    margin-top: 20px;
+}
+
+.main-factoid-warrenty{
+    margin-top: -2px;
+}
+
+.factoid-warrenty--text{
+    font-size: 89px;
+    color: var(--color-attention);
+    line-height: 96px;
 }
