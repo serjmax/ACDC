@@ -25,13 +25,23 @@
     box-sizing: border-box;
 }
 
+@media screen and (max-width: 992px){
+    .grid{
+        background: linear-gradient( rgba(255,255,255, 0) 0.1VW, rgba(0, 0, 0, .15) 0) 0 -0.3vw, linear-gradient(90deg, rgba(255,255,255, 0) 0.1VW, rgba(0, 0, 0, .15) 1px) 0 0;
+        background-size: 2.5vw 2.5vw;
+    }
+}
+
+
 
 /* Basic Styles */
 
 :root {
     --color-primary: #262626;
+    --color-muted: #606060;
     --color-bg: #EFEFEF;
     --color-attention: #FF3F05;
+    --color-blue: #002868;
   }
 
 *{
@@ -45,6 +55,19 @@
 body{
     background-color: var(--color-bg);
     margin: 0;
+}
+
+
+@media screen and (max-width: 992px){
+    .desktop{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .mobile{
+        display: none;
+    }
 }
 
 h1{
@@ -104,14 +127,40 @@ a.active{
     background-color: var(--color-attention);
     padding: 6px;
 }
+
+@media screen and (max-width: 992px){
+    p{
+        font-size: 6vw;
+        line-height: 7.5vw;
+    }
+}
+
+
+/* Wrapper */
+
+.wrapper{
+    width: 1280px;
+    margin: auto;
+}
+
+@media screen and (max-width: 992px){
+    .wrapper{
+        width: calc(100vw - 16px);
+    }
+}
+
+
+
 /* Nav */
 nav{
+    position: sticky;
+    top: 0;
+}
+
+.nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
-    position: sticky;
-    top: 0;
     align-self: flex-start;
     background-color: #efefef;
     padding-top: 32px;
@@ -138,18 +187,55 @@ nav{
     text-align: end;
 }
 
-/* Wrapper */
+@media screen and (max-width: 992px){
 
-.wrapper{
-    width: 1280px;
-    margin: auto;
+    nav{
+        position: sticky;
+        top: Calc(-6.2vw - 42px);
+        background-color: #efefef;
+        z-index: 99999;
+    }
+
+    .nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-self: flex-start;
+
+        padding-top: 0px;
+    }
+
+    .nav--logo--name{
+        font-size: 6.2vw;
+        line-height: 6.2vw;
+        border-bottom: solid 2px var(--color-primary);
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    .nav--contacts--phone{
+        font-size: 6.2vw;
+    }
+
+    .nav--contacts{
+        border-bottom: solid 2px var(--color-primary);
+        padding-bottom: 1.8vw;
+        padding-top: 1.8vw;
+    }
+
+    .nav--contacts--work-hours{
+        font-size: 4.2vw;
+        text-align: left;
+        line-height: 4.2vw;
+        color: var(--color-muted);
+    }
 }
 
 
 /* Main */
 
 .main{
-    margin-top: 133px;
+    margin-top: 130px;
 }
 
 .main--lead{
@@ -257,11 +343,152 @@ nav{
     margin-right: 16px;
 }
 
+@media screen and (max-width: 992px){
+    .main{
+        margin-top: 8.9vw;
+        margin-bottom: 20vw;
+    }
+
+    .main--lead{
+        font-size: 8.8vw;
+        line-height: 12.6vw;
+    }
+
+    .factoid-warranty__mobile{
+        background-color: #eb575748;
+        height: 66vw;
+        padding: 5vw;
+        margin-bottom: 20vw;
+        border: solid 1.5vw #eb5757;
+    }
+
+    .factoid-warrant--image{
+        position: absolute;
+        z-index: 1;
+        width: 50vw;
+    }
+
+    .factoid-warrant--text{
+        z-index: 2;
+        position: relative;
+        bottom: -23vw;
+        width: 70vw;
+        left: 9vw;
+    }
+
+    .factoid-diagnostic__mobile{
+        overflow: hidden;
+        margin-bottom: 20vw;
+        border: solid 1.5vw;
+        padding: 4vw;
+    }
+
+    .factoid-usd70--image{
+        width: 100%;
+    }
+
+    .factoid-usd70--text{
+        margin-top: 1.2vw;
+    }
+
+    .factoid-diagnostic-free__mobile{
+        margin-bottom: 20.5vw;
+        border: solid 1.5vw;
+        padding: 4vw;
+    }
+
+    .factoid-diagnostic-free--image{
+        width: 100%;
+    }
+
+    .factoid-diagnostic-free--text{
+        margin-top: 1.8vw;
+    }
+
+    .main-factoid-trainee{
+        margin-top: 0;
+        padding: 4vw;
+        margin-bottom: 20vw;
+        
+        height: 65vw;
+        justify-content: space-evenly;
+        flex-direction: column;
+        border: solid 1.5vw var(--color-blue);
+    }
+
+    .factoid-trainee--div-1{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .factoid-trainee--h2{
+        font-size: 14vw;
+        line-height: 14vw;
+        color: var(--color-blue);
+    }
+
+    .factoid-trainee--image {
+        margin-right: 3vw;
+        width: 30vw;
+    }
+
+    .factoid-trainee--text{
+        margin-top: auto;
+    }
+
+    .main-factoid-insured{
+        /* margin-top: 0;
+        padding: 2vw;
+        height: auto;
+        margin-bottom: 20vw; */
+
+        margin-top: 0;
+        padding: 4vw;
+        margin-bottom: 20vw;
+        
+        height: 65vw;
+        justify-content: space-evenly;
+        flex-direction: column;
+        border: solid 1.5vw var(--color-blue);
+    }
+
+    .factoid-insured--div-1{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .factoid-insured--h2{
+        font-size: 14vw;
+        line-height: 14vw;
+        color: var(--color-blue);
+    }
+
+    .factoid-insured--image{
+        /* margin-right: 3vw;
+        width: 20vw; */
+        margin-right: 3vw;
+        width: 30vw;
+    }
+
+    .main-factoid-same-day-service{
+        margin-top: 0;
+        padding: 1.5vw;
+        height: auto;
+        margin-bottom: 20vw;
+        background-color: #27AE60;
+    }
+
+    .factoid-same-day-service--image{
+        width: 100%;
+    }
+}
+
+
 /* FOOTER */
 
-
-
-footer{
+.footer{
     background-color: var(--color-bg);
     color: var(--color-primary);
 
@@ -285,6 +512,41 @@ footer{
     margin-left: 16px;
 }
 
-.footer--contacts{
+@media screen and (max-width: 992px){
+    .footer{
+        width: auto;
+        flex-direction: column;
+        padding-top: 10vw;
+        margin-top: 20vw;
+    }
 
+    .footer--company-name{
+        width: auto;
+        flex-direction: row;
+    }
+
+    .footer--company-logo{
+        width: 36vw;
+    }
+
+    .footer--subtitle{
+        margin-left: 2vw;
+        font-size: 5vw;
+        line-height: 7.5vw;
+    }
+
+    .footer--contacts{
+        width: auto;
+        margin-top: 10vw;
+    }
+
+    .footer--contact--p{
+        font-size: 5vw;
+        line-height: 7.5vw;
+    }
+
+    .footer--contact--a{
+        font-size: 5vw;
+        line-height: 7.5vw;
+    }
 }
