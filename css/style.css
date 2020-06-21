@@ -239,10 +239,10 @@ nav{
 }
 
 .main--lead{
-    font-family: Repro-Light, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-family: Repro-Regular, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
     font-size: 58px;
     line-height: 80px;
-    font-weight: 600;
+    font-weight: 100;
     color: #262626;
 }
 
