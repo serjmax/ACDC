@@ -2,15 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="content-language" content="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>{{ site.title }}</title>
     <link rel="stylesheet" href="{{ 'css/style.css' | relative_url }}">
 </head>
 <body>
-    <div class="wrapper">
+    <div class="wrapper ">
         {% include header.html %}
         {{ content }}
+        {% include footer.html %}
     </div>
-    {% include footer.html %}
 </body>
 </html>
