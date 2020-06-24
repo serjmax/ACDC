@@ -25,6 +25,41 @@
     box-sizing: border-box;
 }
 
+.fixed-width-container{
+    max-width: 944px;
+    margin: auto;
+    height: 100%;
+}
+
+.col-2{
+    width: calc(var(--fixed-width)) / 2 - 16px);
+    display: flex;
+}
+
+.col-3{
+    width: calc(3 * 144px - 16px);
+    display: flex;
+}
+
+.col-4{
+    width: calc(4 * 144px - 16px);
+    display: flex;
+}
+
+.col-5{
+    width: calc(5 * 144px - 16px);
+}
+
+.col-6{
+    width: calc(6 * 144px - 16px);
+    display: flex;
+}
+
+.col-9{
+    width: calc(9 * 144px);
+    display: flex;
+}
+
 @media screen and (max-width: 992px){
     .grid{
         background: linear-gradient( rgba(255,255,255, 0) 0.1VW, rgba(0, 0, 0, .15) 0) 0 -0.3vw, linear-gradient(90deg, rgba(255,255,255, 0) 0.1VW, rgba(0, 0, 0, .15) 1px) 0 0;
@@ -39,10 +74,15 @@
 :root {
     --color-primary: #262626;
     --color-muted: #606060;
+    --color-white: white;
+    --color-white-60: rgba(255, 255, 255, 0.6);
     --color-bg: #EFEFEF;
-    --color-attention: #FF3F05;
+    --color-attention: #ff3e50;
+    --color-attention__hover: #e32a44;
     --color-blue: #002868;
-  }
+
+    --fixed-width: 944px;
+}
 
 *{
     font-family: Repro-Regular, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
@@ -53,24 +93,16 @@
 }
 
 body{
-    background-color: var(--color-bg);
+    background-color: var(--color-white);
     margin: 0;
 }
 
-
-@media screen and (max-width: 992px){
-    .desktop{
-        display: none;
-    }
-}
-
-@media screen and (min-width: 992px){
-    .mobile{
-        display: none;
-    }
-}
-
 h1{
+    font-family: Repro-Regular, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-size: 46px;
+    line-height: 56px;
+    color: var(--color-primary);
+
     margin: 0;
 }
 
@@ -89,8 +121,8 @@ h3{
     margin: 0;
 
     font-family: Repro-Regular, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-    font-size: 36px;
-    line-height: 44px;
+    font-size: 28px;
+    line-height: 34px;
     color: var(--color-primary);
 }
 
@@ -98,20 +130,8 @@ p{
     margin: 0;
     padding: 0;
 
-    font-size: 24px;
-    line-height: 48px;
-}
-
-ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-li{
-    list-style-type: none;
-    /* display: inline-block; */
-    line-height: 48px;
+    font-size: 18px;
+    line-height: 25px;
 }
 
 a{
@@ -123,430 +143,184 @@ a.active{
     color: #F19300;
 }
 
-.underlined{
-    background-color: var(--color-attention);
-    padding: 6px;
-}
-
-@media screen and (max-width: 992px){
-    p{
-        font-size: 6vw;
-        line-height: 7.5vw;
-    }
-}
 
 
-/* Wrapper */
-
-.wrapper{
-    width: 1280px;
-    margin: auto;
-}
-
-@media screen and (max-width: 992px){
-    .wrapper{
-        width: calc(100vw - 16px);
-    }
-}
+/* WRAPPER */
 
 
 
-/* Nav */
+/* NAV */
+
 nav{
-    position: sticky;
-    top: 0;
+    position: absolute;
+    width: calc(100vw - 16px);
+    margin: 16px auto;
 }
 
-.nav{
+.nav-link{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-self: flex-start;
-    background-color: #efefef;
-    padding-top: 32px;
+    align-items: flex-end;
 }
 
-.nav--logo--name{
-    font-size: 42px;
-    line-height: 36px;
-}
-
-.nav--logo--subtitle{
-    font-size: 24px;
-    line-height: 62px;
-}
-
-.nav--contacts--phone{
-    font-size: 42px;
-    line-height: 36px;
-}
-
-.nav--contacts--work-hours{
-    font-size: 24px;
-    line-height: 62px;
-    text-align: end;
-}
-
-@media screen and (max-width: 992px){
-
-    nav{
-        position: sticky;
-        top: Calc(-6.2vw - 42px);
-        background-color: #efefef;
-        z-index: 99999;
-    }
-
-    .nav{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-self: flex-start;
-
-        padding-top: 0px;
-    }
-
-    .nav--logo--name{
-        font-size: 6.2vw;
-        line-height: 6.2vw;
-        border-bottom: solid 2px var(--color-primary);
-        padding-bottom: 20px;
-        padding-top: 20px;
-    }
-
-    .nav--contacts--phone{
-        font-size: 6.2vw;
-    }
-
-    .nav--contacts{
-        border-bottom: solid 2px var(--color-primary);
-        padding-bottom: 1.8vw;
-        padding-top: 1.8vw;
-    }
-
-    .nav--contacts--work-hours{
-        font-size: 4.2vw;
-        text-align: left;
-        line-height: 4.2vw;
-        color: var(--color-muted);
-    }
-}
-
-
-/* Main */
-
-.main{
-    margin-top: 130px;
-}
-
-.main--lead{
-    font-family: Repro-Regular, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-    font-size: 58px;
-    line-height: 80px;
-    font-weight: 100;
-    color: #262626;
-}
-
-.main-block{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.main-block__1{
-    margin-top: Calc(16px * 17 + 12px);
-}
-
-.main-block__2{
-    margin-top: Calc(16px * 17 + 7px);
-}
-
-.main-block__3{
-    margin-top: Calc(16px * 17 + 7px);
-}
-
-.main-block__3__list{
-    margin-top: Calc(16px * 2 - 7px);
-    margin-bottom: 3px;
-}
-
-.main-block__3__subtitle{
-    margin-top: Calc(16px * 4 + 0px);
-    margin-bottom: -4px;
-}
-
-.main-col-3{
-    width: calc(3 * 144px - 16px);
-    display: flex;
-}
-
-.main-col-4{
-    width: calc(4 * 144px - 16px);
-    display: flex;
-}
-
-.main-col-5{
-    width: calc(5 * 144px - 16px);
-}
-
-.main-col-6{
-    width: calc(6 * 144px - 16px);
-    display: flex;
-}
-
-.main-col-9{
-    width: calc(9 * 144px);
-    display: flex;
-}
-
-.main-block--block-1--text{
-    margin-top: 25px;
-}
-
-.main-factoid-usd70{
-    margin-left: -2px;
-}
-
-.factoid-usd70--text{
-    margin-top: 20px;
-}
-
-.main-factoid-warrenty{
-    margin-top: -2px;
-}
-
-.factoid-warrenty--text{
-    font-size: 89px;
-    color: var(--color-attention);
-    line-height: 96px;
-}
-
-.main-factoid-trainee{
-    display: flex;
-    background-color: #0028683b;
-    padding: 0px 0px 0px 16px;
-    margin-top: -16px;
-    height: 195px;
-}
-
-.factoid-trainee--image{
-    margin-right: 16px;
-}
-
-.main-factoid-insured{
-    display: flex;
-    background-color: #0028683b;
-    padding: 0px 16px 2px 16px;
-    margin-top: 0px;
-}
-
-.factoid-insured--image{
-    margin-right: 16px;
-}
-
-@media screen and (max-width: 992px){
-    .main{
-        margin-top: 8.9vw;
-        margin-bottom: 20vw;
-    }
-
-    .main--lead{
-        font-size: 8.8vw;
-        line-height: 12.6vw;
-    }
-
-    .factoid-warranty__mobile{
-        background-color: #eb575748;
-        height: 66vw;
-        padding: 5vw;
-        margin-bottom: 20vw;
-        border: solid 1.5vw #eb5757;
-    }
-
-    .factoid-warrant--image{
-        position: absolute;
-        z-index: 1;
-        width: 50vw;
-    }
-
-    .factoid-warrant--text{
-        z-index: 2;
-        position: relative;
-        bottom: -23vw;
-        width: 70vw;
-        left: 9vw;
-    }
-
-    .factoid-diagnostic__mobile{
-        overflow: hidden;
-        margin-bottom: 20vw;
-        border: solid 1.5vw;
-        padding: 4vw;
-    }
-
-    .factoid-usd70--image{
-        width: 100%;
-    }
-
-    .factoid-usd70--text{
-        margin-top: 1.2vw;
-    }
-
-    .factoid-diagnostic-free__mobile{
-        margin-bottom: 20.5vw;
-        border: solid 1.5vw;
-        padding: 4vw;
-    }
-
-    .factoid-diagnostic-free--image{
-        width: 100%;
-    }
-
-    .factoid-diagnostic-free--text{
-        margin-top: 1.8vw;
-    }
-
-    .main-factoid-trainee{
-        margin-top: 0;
-        padding: 4vw;
-        margin-bottom: 20vw;
-        
-        height: 65vw;
-        justify-content: space-evenly;
-        flex-direction: column;
-        border: solid 1.5vw var(--color-blue);
-    }
-
-    .factoid-trainee--div-1{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
-
-    .factoid-trainee--h2{
-        font-size: 14vw;
-        line-height: 14vw;
-        color: var(--color-blue);
-    }
-
-    .factoid-trainee--image {
-        margin-right: 3vw;
-        width: 30vw;
-    }
-
-    .factoid-trainee--text{
-        margin-top: auto;
-    }
-
-    .main-factoid-insured{
-        /* margin-top: 0;
-        padding: 2vw;
-        height: auto;
-        margin-bottom: 20vw; */
-
-        margin-top: 0;
-        padding: 4vw;
-        margin-bottom: 20vw;
-        
-        height: 65vw;
-        justify-content: space-evenly;
-        flex-direction: column;
-        border: solid 1.5vw var(--color-blue);
-    }
-
-    .factoid-insured--div-1{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
-
-    .factoid-insured--h2{
-        font-size: 14vw;
-        line-height: 14vw;
-        color: var(--color-blue);
-    }
-
-    .factoid-insured--image{
-        /* margin-right: 3vw;
-        width: 20vw; */
-        margin-right: 3vw;
-        width: 30vw;
-    }
-
-    .main-factoid-same-day-service{
-        margin-top: 0;
-        padding: 1.5vw;
-        height: auto;
-        margin-bottom: 20vw;
-        background-color: #27AE60;
-    }
-
-    .factoid-same-day-service--image{
-        width: 100%;
-    }
-}
-
-
-/* FOOTER */
-
-.footer{
-    background-color: var(--color-bg);
+.nav-link--name{
+    font-size: 18px;
     color: var(--color-primary);
 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: end;
-
-    width: Calc(1280px + 0px);
-    margin: auto;
-    /* padding-left: 16px;
-    padding-right: 16px; */
-    padding-top: 35px;
-    padding-bottom: 32px;
-    margin-top: Calc(16px * 17 + 0px);
-
-    border-top: solid 16px var(--color-primary);
-}
-
-.footer--subtitle{
     margin-left: 16px;
 }
 
-@media screen and (max-width: 992px){
-    .footer{
-        width: auto;
-        flex-direction: column;
-        padding-top: 10vw;
-        margin-top: 20vw;
-    }
-
-    .footer--company-name{
-        width: auto;
-        flex-direction: row;
-    }
-
-    .footer--company-logo{
-        width: 36vw;
-    }
-
-    .footer--subtitle{
-        margin-left: 2vw;
-        font-size: 5vw;
-        line-height: 7.5vw;
-    }
-
-    .footer--contacts{
-        width: auto;
-        margin-top: 10vw;
-    }
-
-    .footer--contact--p{
-        font-size: 5vw;
-        line-height: 7.5vw;
-    }
-
-    .footer--contact--a{
-        font-size: 5vw;
-        line-height: 7.5vw;
+@media screen and (max-width: 960px){
+    nav{
+        margin: 16px;
     }
 }
+
+
+
+/* HEADER */
+.main--header{
+    background-image: url(/assets/images/bg-image.jpg);
+    background-color: rgba(255, 255, 255, 0.85);
+    background-blend-mode: overlay;
+
+    width: 100%;
+    height: 600px;
+    padding-top: 200px;
+}
+
+.main--descriptor{
+    font-size: 22px;
+    line-height: 32px;
+
+    margin-top: 18px;
+}
+
+.header--button{
+    font-size: 18px;
+
+    background-color: var(--color-attention);
+    height: 64px;
+    display: inline-block;
+    position: sticky;
+    top: 16px;
+    padding: 0 32px;
+    margin-top: 100px;
+    line-height: 64px;
+    border-radius: 64px;
+    color: white;
+}
+
+.header--button:hover{
+    background-color: var(--color-attention__hover);
+}
+
+@media screen and (max-width: 960px){
+    .main--header{
+        padding-top: 124px;
+        padding-left: 16px;
+        padding-right: 16px;
+        width: auto;
+    }
+
+    .header--button{
+        float: right;
+        bottom: 16px;
+    }
+}
+
+/* CITIES BLOCK */
+.main--cities{
+    padding: 16px;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+}
+.cities--list{
+    -webkit-columns: Calc(50vw - 32px) 2;
+    -moz-columns: Calc(50vw - 32px) 2;
+    columns: Calc(var(--fixed-width) / 8) 4;
+
+    color: var(--color-white-60);
+}
+
+/* BENEFITS */
+.main--benefits{
+    padding: 0 16px;
+    color: var(--color-muted);
+}
+
+.benefits-title{
+    border-bottom: solid 2px var(--color-primary);
+
+    margin-bottom: 96px;
+    margin-top: 96px;
+}
+
+.benefits-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.benefits-block{
+    margin-bottom: 128px;
+    width: 400px;
+}
+
+.benefit-title{
+    margin-top: 23px;
+}
+
+.benefits-text{
+    margin-top: 13px;
+}
+
+.
+
+/* FOOTER */
+
+
+
+
+
+
+
+
+/* Clear Floated Elements
+----------------------------------------------------------------------------------------------------*/
+
+/* http://sonspring.com/journal/clearing-floats */
+
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+/* http://www.yuiblog.com/blog/2010/09/27/clearfix-reloaded-overflowhidden-demystified */
+
+.clearfix:before,
+.clearfix:after {
+  content: '\0020';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+/*
+  The following zoom:1 rule is specifically for IE6 + IE7.
+  Move to separate stylesheet if invalid CSS is a problem.
+*/
+
+.clearfix {
+  zoom: 1;
+}
+  
