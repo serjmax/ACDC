@@ -219,32 +219,27 @@ nav{
 
 /* BG HERO */
 
-.full-width-container{
+.bg-hero{
     position: absolute;
     height: 800px;
+    width: 100%;
+    background-image: url(/assets/images/bg-image.jpg);
+    background-size: cover;
+    z-index: -1;
 }
 
-.full-width-container--image{
-    opacity: 0.1;
-    height: 800px;
-}
 
 @media screen and (max-width: 960px){
-    .full-width-container{
+    .bg-hero{
         width: 100vw;
         height: 100vh;
         overflow: hidden;
-    }
-
-    .full-width-container--image{
-        height: 100vh;
     }
 }
 
 
 /* HEADER */
 .main--header{
-    /* background-image: url(/assets/images/bg-image.jpg); */
     background-color: rgba(255, 255, 255, 0.85);
     background-blend-mode: overlay;
 
