@@ -462,8 +462,8 @@ nav{
 }
 
 .services--list{
-    -webkit-columns: Calc(50vw - 32px) 2;
-    -moz-columns: Calc(50vw - 32px) 2;
+    -webkit-columns: Calc(var(--fixed-width) / 8) 4;
+    -moz-columns: Calc(var(--fixed-width) / 8) 4;
     columns: Calc(var(--fixed-width) / 8) 4;
 
     color: var(--color-white-60);
@@ -476,6 +476,34 @@ nav{
 
     margin: 64px 0 32px 0;
     width: 624px;
+}
+
+@media screen and (max-width: 960px){
+    .services-subtitle{
+        width: 100%;
+    }
+
+    .services--list{
+        -webkit-columns: auto 2;
+        -moz-columns: auto 2;
+        columns: auto 2;
+    }
+}
+
+@media screen and (max-width: 540px){
+    .services--list__wide{
+        -webkit-columns: auto 1;
+        -moz-columns: auto 1;
+        columns: auto 1;
+    }
+}
+
+@media screen and (max-width: 380px){
+    .services--list{
+        -webkit-columns: auto 1;
+        -moz-columns: auto 1;
+        columns: auto 1;
+    }
 }
 
 
