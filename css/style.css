@@ -353,42 +353,43 @@ nav{
 }
 
 
-/* SERVICES */
-.main--services{
-    padding: 0 16px;
+/* TRUST */
+.main--trust{
+    padding: 96px 16px 0 16px;
+    background-color: aliceblue;
 }
 
-.services-title{
+.trust-title{
     margin-bottom: 32px;
 }
 
-.services-text-block{
+.trust-text-block{
     display: flex;
 }
 
-.service-image{
+.trust-block-image{
     margin-right: 16px;
     /* margin-top: 4px; */
     min-width: 64px;
     height: 64px;
 }
 
-.services-text{
+.trust-text{
     margin-bottom: 32px;
     max-width: 382px;
     margin-right: 80px;
 }
 
-.services-list{
+.trust-list{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 
-    margin-top: 32px;
+    margin-top: 64px;
 }
 
-.service-block{
-    margin-bottom: 64px;
+.trust-block{
+    margin-bottom: 96px;
     max-width: 382px;
     width: 382px;
     margin-right: 80px;
@@ -397,42 +398,42 @@ nav{
     align-items: flex-start;
 }
 
-.service-block__wide{
+.trust-block__wide{
     max-width: 100%;
     width: 100%;
 }
 
-.service-title{
+.trust-title{
     /* margin-top: 23px; */
 }
 
-.service-text{
+.trust-block-text{
     margin-top: 4px;
 }
 
 @media screen and (max-width: 960px){
-    .services-text-block{
+    .trust-text-block{
         flex-direction: column;
     }
 
-    .services-text{
+    .trust-text{
         margin-bottom: 32px;
         margin-right: 0;
         max-width: 100%;
     }
 
-    .service-block{
+    .trust-block{
         width: Calc(50vw - 32px);
         margin-bottom: 64px;
     }
-    .service-block:nth-child(odd){
+    .trust-block:nth-child(odd){
         margin-right: 32px;
     }
-    .service-block:nth-child(even){
+    .trust-block:nth-child(even){
         margin-right: 0px;
     }
 
-    .service-block__wide{
+    .trust-block__wide{
         width: 100%;
         margin-right: 0px;
         max-width: 100%;
@@ -440,11 +441,41 @@ nav{
 }
 
 @media screen and (max-width: 540px){
-    .service-block{
+    .trust-block{
         width: Calc(100vw - 32px);
         max-width: 100vw;
         margin-right: 0px !important;
     }
+}
+
+
+/* SERVICES  */
+
+.main--services{
+    background-color: var(--color-blue);
+    padding: 96px 16px;
+}
+
+.services-title{
+    margin-bottom: 32px;
+    color: var(--color-white);
+}
+
+.services--list{
+    -webkit-columns: Calc(50vw - 32px) 2;
+    -moz-columns: Calc(50vw - 32px) 2;
+    columns: Calc(var(--fixed-width) / 8) 4;
+
+    color: var(--color-white-60);
+
+    margin-top: 16px;
+}
+
+.services-subtitle{
+    color: var(--color-white);
+
+    margin: 64px 0 32px 0;
+    width: 624px;
 }
 
 
