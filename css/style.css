@@ -481,9 +481,31 @@ nav{
 
 /* FOOTER */
 
+footer{
+    padding: 64px 16px 32px 16px;
+}
 
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: end;
+    border-top: solid;
+    padding-top: 64px;
+}
 
+.footer-block{
+    margin-bottom: 32px;
+    max-width: 382px;
+    margin-right: 80px;
+    display: flex;
+    align-items: end;
+}
 
+.footer-block-image{
+    min-width: 48px;
+    height: 48px;
+    margin-right: 16px;
 
 
 
