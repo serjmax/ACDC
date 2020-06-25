@@ -534,8 +534,14 @@ footer{
     min-width: 48px;
     height: 48px;
     margin-right: 16px;
+}
 
-
-
-
-
+@media screen and (max-width: 960px){
+    footer{
+        padding-bottom: 64px;
+    }
+    .footer-block{
+        margin-right: 0px;
+        max-width: 100%;
+    }
+}
