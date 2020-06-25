@@ -1,3 +1,7 @@
+#2
+
+
+
 @font-face {
     font-family: 'Repro-Regular';
     src: url('../fonts/repro-regular-webfont.eot');
@@ -32,7 +36,7 @@
 }
 
 .col-2{
-    width: calc(var(--fixed-width)) / 2 - 16px);
+    width: calc(var(--fixed-width) / 2 - 16px );
     display: flex;
 }
 
@@ -153,7 +157,7 @@ a.active{
 
 nav{
     position: absolute;
-    width: calc(100vw - 16px);
+    width: calc(100vw - 0px);
     margin: 16px auto;
 }
 
@@ -172,14 +176,73 @@ nav{
 @media screen and (max-width: 960px){
     nav{
         margin: 16px;
+        width: calc(100vw - 16px);
     }
 }
 
 
+/* CAT */
+
+.cat-button-container{
+    position: sticky;
+    top: -444px;
+    z-index: 999999999;
+    width: var(--fixed-width);
+    margin: auto;
+}
+
+.header--button{
+    font-size: 18px;
+
+    background-color: var(--color-attention);
+    height: 64px;
+    display: inline-block;
+    position: absolute;
+    /* position: sticky;
+    top: 16px; */
+    padding: 0 16px;
+    margin-top: 460px;
+    line-height: 64px;
+    border-radius: 64px;
+    color: white;
+}
+
+@media screen and (max-width: 960px){
+    .cat-button-container{
+        position: fixed;
+        width: 100vw;
+        padding: 0 16px;
+        top: 100vh;
+    }
+    .header--button{
+        width: Calc(100vw - 64px);
+        text-align: center;
+    }
+}
+
+/* BG HERO */
+
+.bg-hero{
+    position: absolute;
+    height: 800px;
+    width: 100%;
+    background-image: url(/assets/images/bg-image.jpg);
+    background-size: cover;
+    z-index: -1;
+}
+
+
+@media screen and (max-width: 960px){
+    .bg-hero{
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+    }
+}
+
 
 /* HEADER */
 .main--header{
-    background-image: url(/assets/images/bg-image.jpg);
     background-color: rgba(255, 255, 255, 0.85);
     background-blend-mode: overlay;
 
@@ -195,21 +258,6 @@ nav{
     margin-top: 18px;
 }
 
-.header--button{
-    font-size: 18px;
-
-    background-color: var(--color-attention);
-    height: 64px;
-    display: inline-block;
-    position: sticky;
-    top: 16px;
-    padding: 0 32px;
-    margin-top: 100px;
-    line-height: 64px;
-    border-radius: 64px;
-    color: white;
-}
-
 .header--button:hover{
     background-color: var(--color-attention__hover);
 }
@@ -220,6 +268,7 @@ nav{
         padding-left: 16px;
         padding-right: 16px;
         width: auto;
+        height: Calc(100vh - 124px);
     }
 
     .header--button{
@@ -274,7 +323,6 @@ nav{
     margin-top: 13px;
 }
 
-.
 
 /* FOOTER */
 
@@ -285,42 +333,4 @@ nav{
 
 
 
-/* Clear Floated Elements
-----------------------------------------------------------------------------------------------------*/
 
-/* http://sonspring.com/journal/clearing-floats */
-
-.clear {
-  clear: both;
-  display: block;
-  overflow: hidden;
-  visibility: hidden;
-  width: 0;
-  height: 0;
-}
-
-/* http://www.yuiblog.com/blog/2010/09/27/clearfix-reloaded-overflowhidden-demystified */
-
-.clearfix:before,
-.clearfix:after {
-  content: '\0020';
-  display: block;
-  overflow: hidden;
-  visibility: hidden;
-  width: 0;
-  height: 0;
-}
-
-.clearfix:after {
-  clear: both;
-}
-
-/*
-  The following zoom:1 rule is specifically for IE6 + IE7.
-  Move to separate stylesheet if invalid CSS is a problem.
-*/
-
-.clearfix {
-  zoom: 1;
-}
-  
