@@ -1,6 +1,6 @@
 ---
 layout: index
 keyword: Microwave repair
-title: Diagnostic and repair microwaves
-subtitle: "Fast and professional appliances services. Servicing all brands of microwaves. Work in Dallas, TX and surrounding areas."
+title: Diagnostic and repair microwave
+subtitle: "Fast and professional diagnostic and repair microwave. Servicing all brands of microwaves. We work in Dallas, TX and surrounding areas."
 ---
