@@ -226,7 +226,8 @@ nav{
         position: fixed;
         width: 100vw;
         padding: 0 16px;
-        top: 100vh;
+        /* top: 100vh; */
+        bottom: 0;
     }
     .header--button{
         width: Calc(100vw - 64px);
