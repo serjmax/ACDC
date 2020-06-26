@@ -163,7 +163,11 @@ nav{
 
 .nav-link{
     display: flex;
-    align-items: flex-end;
+    align-items: center;
+}
+
+.nav-link--image{
+    height: 48px;
 }
 
 .nav-link--name{
@@ -177,6 +181,10 @@ nav{
     nav{
         margin: 16px;
         width: calc(100vw - 32px);
+    }
+
+    .nav-link--image{
+        height: 32px;
     }
 }
 
@@ -270,11 +278,21 @@ nav{
 
 @media screen and (max-width: 960px){
     .main--header{
-        padding-top: 124px;
+        /* padding-top: 124px; */
+        padding-top: 0px;
         padding-left: 16px;
         padding-right: 16px;
         width: auto;
-        height: Calc(100vh - 124px);
+        /* height: Calc(100vh - 124px); */
+
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        height: 100vh;
+    }
+
+    .main--header--block{
+        height: auto;
     }
 
     .header--button{
@@ -469,6 +487,12 @@ nav{
     color: var(--color-white-60);
 
     margin-top: 16px;
+}
+
+.services--list__wide{
+    -webkit-columns: Calc(var(--fixed-width) / 8) 3;
+    -moz-columns: Calc(var(--fixed-width) / 8) 3;
+    columns: Calc(var(--fixed-width) / 8) 3;
 }
 
 .services-subtitle{
