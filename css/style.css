@@ -227,7 +227,12 @@ nav{
         width: 100vw;
         padding: 0 16px;
         /* top: 100vh; */
-        bottom: 0;
+        /* bottom: 0; */
+
+        height: 64px;
+        bottom: 16px;
+        margin: 0;
+        top: auto;
     }
     .header--button{
         width: Calc(100vw - 64px);
@@ -297,8 +302,12 @@ nav{
     }
 
     .header--button{
-        float: right;
-        bottom: 16px;
+        /* float: right;
+        bottom: 16px; */
+
+        float: none;
+        bottom: auto;
+        margin: 0;
     }
 }
 
