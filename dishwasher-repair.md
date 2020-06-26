@@ -1,6 +1,6 @@
 ---
 layout: index
 keyword: Dishwasher repair
-title: Dishwasher repair
-subtitle: "Fast and professional diagnostic and repair dishwasher. Servicing all brands of dishwashers. We work in Dallas, TX and surrounding areas."
+title: Fast and professional dishwasher repair
+subtitle: "Diagnostic and repair. Servicing all brands of dishwashers. We work in Dallas, TX and surrounding areas."
 ---

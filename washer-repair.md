@@ -1,6 +1,6 @@
 ---
 layout: index
 keyword: Washer repair
-title: Washer repair
-subtitle: "Fast and professional diagnostic and repair washer. Servicing all brands of washers. We work in Dallas, TX and surrounding areas."
+title: Fast and professional washer repair
+subtitle: "Diagnostic and repair. Servicing all brands of washers. We work in Dallas, TX and surrounding areas."
 ---

@@ -1,6 +1,6 @@
 ---
 layout: index
 keyword: Cooktop repair
-title: Cooktop repair
-subtitle: "Fast and professional diagnostic and repair cooktop. Servicing all brands of cooktops. We work in Dallas, TX and surrounding areas."
+title: Fast and professional cooktop repair
+subtitle: "Diagnostic and repair. Servicing all brands of cooktops. We work in Dallas, TX and surrounding areas."
 ---
