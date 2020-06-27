@@ -47,15 +47,27 @@
     display: flex;
 }
 
+.col-7{
+    width: 544px;
+}
+
+.col-8{
+    width: 624px;
+}
+
 .col-9{
     width: calc(9 * 144px);
     display: flex;
 }
 
-@media screen and (max-width: 992px){
+@media screen and (max-width: 960px){
     .grid{
         background: linear-gradient( rgba(255,255,255, 0) 0.1VW, rgba(0, 0, 0, .15) 0) 0 -0.3vw, linear-gradient(90deg, rgba(255,255,255, 0) 0.1VW, rgba(0, 0, 0, .15) 1px) 0 0;
         background-size: 2.5vw 2.5vw;
+    }
+
+    .col-7, .col-8{
+        width: 100%;
     }
 }
 
@@ -574,5 +586,125 @@ footer{
     .footer-block{
         margin-right: 0px;
         max-width: 100%;
+    }
+}
+
+
+
+
+/* PAGE */
+
+.page--content{
+    padding: 0 16px;
+
+}
+
+.page--bg-hero{
+    position: absolute;
+    height: 240px;
+    width: 100%;
+    background-image: url(/assets/images/bg-image-2.webp);
+    background-size: cover;
+    z-index: -1;
+}
+
+.page--header{
+    background-color: rgba(255, 255, 255, 0.85);
+
+    width: 100%;
+    height: 132px;
+    padding-top: 110px;
+}
+
+.page--quote{
+    margin: 32px 0px 32px 0px;
+}
+
+.page--text{
+    margin-top: 16px;
+}
+
+.page--text-list{
+    -webkit-columns: Calc(var(--fixed-width) / 8) 2;
+    -moz-columns: Calc(var(--fixed-width) / 8) 2;
+    columns: Calc(var(--fixed-width) / 8) 2;
+
+    margin-top: 16px;
+}
+
+.page--h3{
+    margin: 32px 0;
+}
+
+.page--h3{
+    margin: 32px 0 32px 0;
+}
+
+@media screen and (max-width: 960px){
+
+    .page--bg-hero{
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+    }
+
+    .page--h3{
+        width: 100%;
+    }
+
+    .page--text-list{
+        -webkit-columns: auto 2;
+        -moz-columns: auto 2;
+        columns: auto 2;
+    }
+
+    .page--header{
+        /* padding-top: 124px; */
+        padding-top: 0px;
+        padding-left: 16px;
+        padding-right: 16px;
+        width: auto;
+        /* height: Calc(100vh - 124px); */
+
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        height: 100vh;
+    }
+
+    .page--header--block{
+        height: auto;
+    }
+
+    .page--button{
+        /* float: right;
+        bottom: 16px; */
+
+        float: none;
+        bottom: auto;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 540px){
+    .page--text-list__wide{
+        -webkit-columns: auto 1;
+        -moz-columns: auto 1;
+        columns: auto 1;
+    }
+}
+
+@media screen and (max-width: 380px){
+    .page--text-list{
+        -webkit-columns: auto 1;
+        -moz-columns: auto 1;
+        columns: auto 1;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .page--lead{
+        font-size: 38px;
+        line-height: 44px;
     }
 }
