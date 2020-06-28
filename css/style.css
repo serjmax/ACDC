@@ -163,6 +163,23 @@ nav{
     margin: 16px auto;
 }
 
+.nav--container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav--contact-name{
+    font-size: 18px;
+    color: var(--color-primary);
+
+    margin-left: 16px;
+}
+
+.nav--contact-name:hover{
+    color: var(--color-attention);
+}
+
 .nav-link{
     display: flex;
     align-items: center;
