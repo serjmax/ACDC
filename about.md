@@ -1,5 +1,6 @@
 ---
 layout: about
-title: About Us
 permalink: /about/
+title: About Us
+keyword: About AC/DC HVAC & Appliance Repair
 ---
