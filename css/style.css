@@ -86,14 +86,16 @@
     --color-blue: #002868;
 
     --fixed-width: 944px;
+    --BODY-size: 18px;
+    --BODY-height: 25px;
 }
 
 *{
     font-family: Repro-Regular, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    line-height: 30px;
-    font-size: 24px;
+    line-height: 25px;
+    font-size: 18px;
 }
 
 body{
@@ -329,6 +331,16 @@ nav{
     line-height: 32px;
 
     margin-top: 18px;
+}
+
+.main--header-link{
+    border-bottom: solid 4px var(--color-attention);
+    font-size: 22px;
+    line-height: 32px;
+}
+.main--header-link:hover{
+    border-bottom: solid 4px var(--color-attention__hover);
+    color: var(--color-attention__hover);
 }
 
 .header--button:hover{
@@ -647,7 +659,29 @@ footer{
 
 .page--content{
     padding: 0 16px;
+    margin-top: 64px;
 
+}
+
+.page--content h2{
+    margin-top: 64px;
+    margin-bottom: 32px;
+}
+
+.page--content h3{
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.page--content p{
+    margin-bottom: 16px;
+}
+
+.page--content ul{
+    column-count: 2;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 .page--bg-hero{
@@ -661,7 +695,7 @@ footer{
 }
 
 .page--header{
-    background-color: rgba(255, 255, 255, 0.85);
+    background-color: rgba(249, 249, 249, 0.85);
 
     width: 100%;
     height: 170px;
@@ -740,7 +774,7 @@ footer{
     justify-content: space-between;
     margin: 8px 0;
     border-bottom: solid 1px gainsboro;
-    padding-bottom: 16px;
+    /* padding-bottom: 16px; */
     padding-top: 0px;
 }
 
@@ -878,11 +912,12 @@ footer{
 
 .prices--fee--text{
     color: var(--color-white);
+    margin-top: 16px;
 }
 
 .prices--fee--old-price{
     color: var(--color-muted);
-    margin-top: 4px;
+    margin-top: 20px;
 }
 
 .prices--h3{
@@ -893,6 +928,10 @@ footer{
     .prices--fee--container{
         justify-content: flex-start;
         align-items: flex-end;
+    }
+    .prices--fee--text{
+        margin-top: 0px;
+        margin-bottom: 0px !important;
     }
     .prices--fee--new-price{
         width: auto;
@@ -907,21 +946,21 @@ footer{
 
 /* 100 REASONS PAGE */
 
-ol{
+.reasons--table-ol{
     list-style-type: none; /* Убираем исходные маркеры */
     counter-reset: my-counter; /* Задаём имя счетчика */
     margin: 0;
     padding: 0;
 }
 
-li::before {
+.reasons--table-ol li::before {
     content: counter(my-counter); /* Выводим число */
     counter-increment: my-counter; /* Увеличиваем значение счётчика */
     color: var(--color-attention);
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
     margin-right: 8px;
-    margin-top: 5px;
+    margin-top: 8px;
 }
 
 .page--table--counter{
