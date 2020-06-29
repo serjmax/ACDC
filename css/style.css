@@ -291,14 +291,6 @@ nav{
 
 
 
-@media screen and (max-width: 960px){
-    .bg-hero{
-        width: 100vw;
-        height: 100vh;
-        overflow: hidden;
-    }
-}
-
 
 /* HEADER */
 .main--header{
