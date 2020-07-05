@@ -27,74 +27,10 @@ layout: "wrapper"
         <div class="fixed-width-container">
             <p>Our serving cities in Dallas, TX and surrounding areas</p>
             <p class="cities--list">
-                Arlington, TX
-                <br>
-                Dallas, TX
-                <br>
-                Bedford, TX
-                <br>
-                Denton, TX
-                <br>
-                Lewisville, TX
-                <br>
-                Plano, TX
-                <br>
-                River Oaks, TX
-                <br>
-                Arlington, TX
-                <br>
-                Irving, TX
-                <br>
-                Denton, TX
-                <br>
-                Lewisville, TX
-                Plano, TX
-                <br>
-                Carrollton, TX
-                <br>
-                Frisco, TX
-                <br>
-                Keller, TX
-                <br>
-                Grapevine, TX
-                <br>
-                Bedford, TX
-                <br>
-                Euless, TX
-                <br>
-                Southlake, TX
-                <br>
-                Lake Dallas, TX
-                <br>
-                Roanoke, TX
-                <br>
-                Argyle, TX
-                <br>
-                Hebron, TX
-                <br>
-                Richardson, TX
-                <br>
-                Corinth, TX
-                <br>
-                Lantana, TX
-                <br>
-                Copper Canyon, TX
-                <br>
-                Highland Village, TX
-                <br>
-                Double Oak, TX
-                <br>
-                Watauga, TX
-                <br>
-                Melody Hills, TX
-                <br>
-                Richland Hills, TX
-                <br>
-                North Richland Hills, TX
-                <br>
-                Haltom City, TX
-                <br>
-                Blue Mound, TX
+                {% for city in site.data.city %}
+                    {{ city.city }}
+                    <br>
+                {% endfor %}
             </p>
 
         </div>
