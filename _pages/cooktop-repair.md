@@ -1,7 +1,8 @@
 ---
+permalink: /cooktop-repair
 layout: page
 title: Fast and professional cooktop repair
-subtitle: "Cooktop diagnostic and repair. Servicing all brands of cooktops. We work in Dallas, TX and surrounding areas."
+subtitle: "Cooktop diagnostic and repair. Servicing all brands of cooktops."
 keyword: Cooktop repair, diagnostic, Dallas, TX, Arlington, Irving, Denton, Lewisville, Plano, Carrollton, Frisco, Keller, Grapevine, Bedford, Euless, Southlake, Lake Dallas, Roanoke, Argyle, Hebron, Richardson, Corinth, Lantana, Copper Canyon, Highland Village, Double Oak, Watauga, Melody Hills, Richland Hills, North Richland Hills, Haltom City, Blue Mound
 ---
 

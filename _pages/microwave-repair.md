@@ -1,4 +1,5 @@
 ---
+permalink: /microwave-repair
 layout: page
 title: Fast and professional microwave repair
 subtitle: "Microwave diagnostic and repair. Servicing all brands of microwaves. We work in Dallas, TX and surrounding areas."

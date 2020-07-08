@@ -1,5 +1,6 @@
 ---
 layout: page
+permalink: /oven-repair
 title: Fast and professional oven repair
 subtitle: "Oven diagnostic and repair. Servicing all brands of dishwashers. We work in Dallas, TX and surrounding areas."
 keyword: Oven repair, diagnostic, Dallas, TX, Arlington, Irving, Denton, Lewisville, Plano, Carrollton, Frisco, Keller, Grapevine, Bedford, Euless, Southlake, Lake Dallas, Roanoke, Argyle, Hebron, Richardson, Corinth, Lantana, Copper Canyon, Highland Village, Double Oak, Watauga, Melody Hills, Richland Hills, North Richland Hills, Haltom City, Blue Mound

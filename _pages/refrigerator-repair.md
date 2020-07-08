@@ -1,5 +1,6 @@
 ---
 layout: page
+permalink: /refrigerator-repair
 title: Fast and professional refrigerator repair
 subtitle: "Refrigerator diagnostic and repair. Servicing all brands of refrigerators. We work in Dallas, TX and surrounding areas."
 keyword: Refrigerator repair, diagnostic, Dallas, TX, Arlington, Irving, Denton, Lewisville, Plano, Carrollton, Frisco, Keller, Grapevine, Bedford, Euless, Southlake, Lake Dallas, Roanoke, Argyle, Hebron, Richardson, Corinth, Lantana, Copper Canyon, Highland Village, Double Oak, Watauga, Melody Hills, Richland Hills, North Richland Hills, Haltom City, Blue Mound

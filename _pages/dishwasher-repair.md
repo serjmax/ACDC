@@ -1,4 +1,5 @@
 ---
+permalink: /dishwasher-repair
 layout: page
 title: Fast and professional dishwasher repair
 subtitle: "Dishwasher diagnostic and repair. Servicing all brands of dishwashers. We work in Dallas, TX and surrounding areas."

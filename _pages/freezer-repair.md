@@ -1,4 +1,5 @@
 ---
+permalink: /freezer-repair
 layout: page
 title: Fast and professional freezer repair
 subtitle: "Freezer diagnostic and repair. Servicing all brands of freezers. We work in Dallas, TX and surrounding areas."

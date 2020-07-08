@@ -1,4 +1,5 @@
 ---
+permalink: /dryer-repair
 layout: page
 title: Fast and professional dryer repair
 subtitle: "Dryer diagnostic and repair. Servicing all brands of dryers. We work in Dallas, TX and surrounding areas."
