@@ -146,11 +146,10 @@ p{
 a{
     text-decoration: none;
     color: var(--color-light-blue);
-    border-bottom: solid 1px var(--color-light-blue);
 }
 
-a.active{
-    color: var(--color-blue);
+a:hover{
+    color: var(--color-attention);
 }
 
 @media screen and (max-width: 320px){
