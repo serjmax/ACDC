@@ -5,26 +5,12 @@ layout: "wrapper"
 <main role="main" class="main">
 
     <!-- CAT -->
-    <div class="cat-button-container">
-        <a id="cat-button__id-page"href="tel:(817) 225-0277" class="header--button">
-            CALL US NOW (817) 225-0277
-        </a>
-    </div>
+    {% include cat-button.html %}
 
     <article>
 
         <!-- TOP HEADER -->
-        <header class="main--hero">
-
-            <div class="bg-hero"></div>
-
-            <div class="main--header">
-                <div class="fixed-width-container main--header--block">
-                    <h1 class="primary-headline main--lead">{{ page.title }}</h1>
-                    <h2 class="primary-subheadline main--descriptor">{{ page.subtitle }}</h2>
-                </div>
-            </div>
-        </header>
+        {% include  hero.html%}
 
         <!-- CITIES -->
         {% include cities.html %}
