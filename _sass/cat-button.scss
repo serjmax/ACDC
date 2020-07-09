@@ -2,13 +2,13 @@
 
 .cat-button-container{
     position: sticky;
-    top: -444px;
+    top: -372px;
     z-index: 999999999;
     width: var(--fixed-width);
     margin: auto;
 }
 
-.header--button{
+.cat-button{
     font-size: 18px;
 
     background-color: var(--color-attention);
@@ -19,10 +19,15 @@
     /* position: sticky;
     top: 16px; */
     padding: 0 16px;
-    margin-top: 460px;
+    margin-top: 383px;
     line-height: 64px;
     border-radius: 64px;
     color: white;
+    right: 0;
+}
+
+.cat-button:hover{
+    background-color: var(--color-attention__hover);
 }
 
 @media screen and (max-width: 960px){
@@ -30,16 +35,17 @@
         position: fixed;
         width: 100vw;
         padding: 0 16px;
-        /* top: 100vh; */
-        /* bottom: 0; */
-
         height: 64px;
         bottom: 16px;
         margin: 0;
         top: auto;
     }
-    .header--button{
+    .cat-button{
         width: Calc(100vw - 64px);
         text-align: center;
+        float: none;
+        bottom: auto;
+        margin: 0;
+        right: unset;
     }
 }
