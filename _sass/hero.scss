@@ -8,7 +8,16 @@
     // background-blend-mode: overlay;
 
     width: 100%;
-    padding-top: 200px;
+    padding-top: 137px;
+
+    h1{
+        font-size: 6.854em;
+        line-height: 96px;
+        font-weight: 400;
+        margin-top: 12px;
+        text-transform: uppercase;
+        width: 1px;
+    }
 }
 
 .main--descriptor{
@@ -33,8 +42,19 @@
 }
 
 @media screen and (max-width: 960px){
-    .header{
-
+    .hero{
+        .header{
+            display: flex;
+            height: 100%;
+            padding-top: 0;
+            align-items: center;
+        }
+        h1{
+            font-size: 4.236em; // 67.77px
+            line-height: 80px;
+            margin-top: -5px;
+            color: var(--color-light-blue);
+        }
     }
 
     .main--header--block{
