@@ -184,9 +184,10 @@ a.active{
 @media screen and (max-width: 960px){
 
     h1.primary-headline{
-        font-size: 2.618em; // 41.89px
-        line-height: 48px;
-        margin-top: 10px;
+        font-size: 4.236em; // 67.77px
+        line-height: 80px;
+        margin-top: 4px;
+        color: var(--color-light-blue);
     }
 
     h2.primary-subheadline{
