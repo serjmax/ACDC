@@ -12,17 +12,24 @@ layout: "wrapper"
         <!-- TOP HEADER -->
         {% include  hero.html%}
 
-        <!-- CITIES -->
-        {% include cities.html %}
-
         <!-- CONTENT -->
         <section class="page--content">
             <div class="fixed-width-container">
                 <div class="col-8">
-                    {{ content }}
+                    <h3 class="section-subheadline">
+                        {{ content }}
+                    </h3>
                 </div>
             </div>
         </section>
+
+        <!-- CITIES -->
+        {% include cities.html %}
+
+        <!-- SERVICE DETAILS -->
+        {% if page.permalink == "/cooktop-repair" %}
+            {% include oven.html %}
+        {% endif %}
 
         <!-- BENEFITS -->
         {% include benefits.html %}
