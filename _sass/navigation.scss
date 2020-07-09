@@ -1,17 +1,12 @@
-/* NAV */
-
 header.top-bar{
     position: absolute;
     width: 100%;
     z-index: 9999999;
+    background-color: white;
+    border-bottom: solid 1px #e6e6e6;
 }
 
 nav{
-    // position: absolute;
-    // width: calc(100vw - 0px);
-    // margin: 16px auto;
-    // z-index: 99;
-    // top: 0px;
     display: flex;
     align-items: center;
 }
@@ -23,14 +18,7 @@ nav{
 }
 
 .nav--contact-name{
-    font-size: 18px;
-    color: var(--color-primary);
-    // border: none;
     margin-left: 16px;
-}
-
-.nav--contact-name:hover{
-    color: var(--color-attention);
 }
 
 .nav-link{
@@ -41,21 +29,16 @@ nav{
 }
 
 .nav-link--image{
-    height: 48px;
+    height: 32px;
+    margin: 4px 0;
 }
 
 .nav-link--name{
-    // font-size: 18px;
-    // color: var(--color-primary);
-
     margin-left: 16px;
 }
 
 @media screen and (max-width: 960px){
     nav{
-        /* margin: 16px;
-        width: calc(100vw - 32px); */
-
         width: 100%;
     }
 
@@ -68,19 +51,17 @@ nav{
     }
 
     .nav-menu{
-        // background-color: var(--color-primary);
-        /* margin-left: -16px; */
-        /* margin-top: 8px; */
         padding-top: 4px;
         padding-bottom: 5px;
-
         width: 100%;
         margin: 0;
-        margin-top: 8px;
+        width: Calc(100% - 32px);
+        margin: 0 16px;
+        justify-content: space-between;
     }
 
     .nav--contact-name{
-        // color: var(--color-white);
+        margin: 0;
     }
 
     .nav-link--image{
