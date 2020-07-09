@@ -1,6 +1,5 @@
 .hero{
     height: 592px;
-    padding: 16px 16px 32px 16px;
 }
 
 .header{
@@ -13,7 +12,6 @@
     h1{
         font-size: 6.854em;
         line-height: 96px;
-        font-weight: 400;
         margin-top: 12px;
         text-transform: uppercase;
         width: 1px;
@@ -37,10 +35,6 @@
     color: var(--color-attention__hover);
 }
 
-.header--button:hover{
-    background-color: var(--color-attention__hover);
-}
-
 @media screen and (max-width: 960px){
     .hero{
         .header{
@@ -48,6 +42,8 @@
             height: 100%;
             padding-top: 0;
             align-items: center;
+            margin: 0 16px;
+            width: Calc(100% - 32px);
         }
         h1{
             font-size: 4.236em; // 67.77px
@@ -59,15 +55,6 @@
 
     .main--header--block{
         height: auto;
-    }
-
-    .header--button{
-        /* float: right;
-        bottom: 16px; */
-
-        float: none;
-        bottom: auto;
-        margin: 0;
     }
 }
 
