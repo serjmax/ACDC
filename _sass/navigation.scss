@@ -16,6 +16,7 @@ nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin: 16px 0;
 }
 
 .nav--contact-name{
@@ -31,17 +32,23 @@ nav{
 
 .nav-link--image{
     height: 32px;
-    margin: 16px 0;
+    // margin: 16px 0;
 }
 
 .nav-link--name{
     margin-left: 16px;
+    text-transform: uppercase;
+    color: var(--color-light-blue);
+    line-height: 16px;
+    font-size: 12px;
+    font-weight: 700;
+
 }
 
 @media screen and (max-width: 960px){
     header.top-bar{
         position: sticky;
-        top: -60px;
+        top: -32px;
     }
     nav{
         width: 100%;
@@ -50,10 +57,18 @@ nav{
 
     .nav--container{
         flex-direction: column;
+        margin: 8px 0 0 0;
     }
 
     .nav-link{
         margin: 0 16px;
+    }
+
+    .nav-link--name{
+        font-size: 12px;
+        width: 120px;
+        line-height: 15px;
+        margin-left: 4px;
     }
 
     .nav-menu{
@@ -71,7 +86,7 @@ nav{
     }
 
     .nav-link--image{
-        height: 32px;
+        height: 24px;
     }
 }
 
