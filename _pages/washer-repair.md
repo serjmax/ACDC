@@ -1,5 +1,5 @@
 ---
-layout: services
+layout: service
 permalink: /washer-repair
 title: Washer Repair Services
 subtitle: "Washer diagnostic and repair. Servicing all brands of washers. We work in Dallas, TX and surrounding areas."
