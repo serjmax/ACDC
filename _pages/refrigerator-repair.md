@@ -1,5 +1,5 @@
 ---
-layout: services
+layout: service
 permalink: /refrigerator-repair
 title: Refrigerator Repair Services
 subtitle: "Refrigerator diagnostic and repair. Servicing all brands of refrigerators. We work in Dallas, TX and surrounding areas."
