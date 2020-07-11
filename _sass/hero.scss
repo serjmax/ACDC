@@ -1,6 +1,7 @@
 .hero{
     height: 576px;
     padding-top: 64px;
+    margin-bottom: 64px;
 
     h1{
         font-size: 6.854em;
@@ -37,8 +38,10 @@
             margin: 0 16px;
         }
         h1{
-            font-size: 4.236em; // 67.77px
-            line-height: 80px;
+            // font-size: 4.236em;
+            // line-height: 80px;
+            font-size: 17vw;
+            line-height: 17vw;
             margin-top: -5px;
             color: var(--color-light-blue);
         }
