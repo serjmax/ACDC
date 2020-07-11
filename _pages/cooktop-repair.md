@@ -1,6 +1,6 @@
 ---
 permalink: /cooktop-repair
-layout: services
+layout: service
 title: Oven Range Cooktop Repair
 subtitle: "We Servicing All Brands of Ovens, Ranges and Cooktops."
 keyword: Cooktop repair, diagnostic, Dallas, TX, Arlington, Irving, Denton, Lewisville, Plano, Carrollton, Frisco, Keller, Grapevine, Bedford, Euless, Southlake, Lake Dallas, Roanoke, Argyle, Hebron, Richardson, Corinth, Lantana, Copper Canyon, Highland Village, Double Oak, Watauga, Melody Hills, Richland Hills, North Richland Hills, Haltom City, Blue Mound
