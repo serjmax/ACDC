@@ -1,15 +1,6 @@
 .hero{
     height: 576px;
     padding-top: 64px;
-}
-
-.header{
-    width: 100%;
-    height: inherit;
-    // padding-top: 137px;
-    display: flex;
-    align-items: center;
-
 
     h1{
         font-size: 6.854em;
@@ -18,24 +9,21 @@
         text-transform: uppercase;
         width: 1px;
     }
+
+    &__page{
+        h1{
+            width: 100%;
+        }
+    }
+
+    .header{
+        width: 100%;
+        height: inherit;
+        display: flex;
+        align-items: center;
+    }
 }
 
-.main--descriptor{
-    font-size: 22px;
-    line-height: 32px;
-
-    margin-top: 18px;
-}
-
-.main--header-link{
-    border-bottom: solid 4px var(--color-attention);
-    // font-size: 22px;
-    // line-height: 32px;
-}
-.main--header-link:hover{
-    border-bottom: solid 4px var(--color-attention__hover);
-    color: var(--color-attention__hover);
-}
 
 @media screen and (max-width: 960px){
     .hero{
