@@ -28,10 +28,6 @@
     color: white;
 }
 
-.cat-button:hover{
-    background-color: var(--color-attention__hover);
-}
-
 @media screen and (max-width: 960px){
     .cat-button-container{
         position: fixed;
