@@ -74,9 +74,12 @@ h4.section-label{
 }
 
 h1, h2, h3, h4{
-    text-transform: uppercase;
     font-weight: 600;
     margin: 0;
+}
+
+h1, h2{
+    text-transform: uppercase;
 }
 
 p.big{
@@ -111,7 +114,7 @@ p.pullquote{
 hr{
     display: block;
     width: 80px;
-    height: 4px;
+    height: 6px;
     margin-bottom: 0px;
     background-color: var(--color-light-blue);
     border: none;
@@ -126,12 +129,25 @@ ol{
 ul{
     margin-top: 21px;
     margin-bottom: 0px;
+    padding-left: 16px;
 }
 
 li{
     font-size: 1em; // 16px
     line-height: var(--BODY-height);
     margin-bottom: 8px;
+}
+
+.two-column{
+    column-count: 2;
+    list-style: none;
+    padding-left: unset;
+}
+
+.four-column{
+    column-count: 4;
+    list-style: none;
+    padding-left: unset;
 }
 
 .white{
@@ -144,6 +160,18 @@ li{
 
 section{
     padding: 16px 16px 32px 16px;
+}
+
+.section{
+    &__colored{
+        background-color: var(--color-light-blue);
+        margin-bottom: 64px;
+        padding-top: 64px;
+    }
+}
+
+section:last-child{
+    margin-bottom: 0;
 }
 
 p{
@@ -223,9 +251,9 @@ a:hover{
     }
 
     h4.section-label{
-        font-size: 0.75em; //12px
-        line-height: 16px;
-        margin-top: 12px;
+        font-size: 1em; // 16px
+        line-height: 24px;
+        margin-top: Calc(8px + 16px);
     }
 
     p.big{
@@ -235,6 +263,10 @@ a:hover{
 
     ul{
         margin-top: 8px;
+    }
+
+    .four-column{
+        columns: 2;
     }
 }
 
