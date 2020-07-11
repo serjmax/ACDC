@@ -1,5 +1,5 @@
 ---
-layout: services
+layout: service
 permalink: /stove-repair
 title: Stove Repair Services
 subtitle: "Stove diagnostic and repair. Servicing all brands of stoves. We work in Dallas, TX and surrounding areas."
