@@ -3,6 +3,7 @@
 .benefits{
     background-color: var(--color-blue);
     padding-bottom: 22px;
+    margin-bottom: 64px;
 }
 
 .benefits-list{
@@ -22,7 +23,7 @@
 }
 
 .benefits-image{
-    margin-top: 34px;
+    // margin-top: 34px;
     height: 128px;
     filter: brightness(100);
 }
