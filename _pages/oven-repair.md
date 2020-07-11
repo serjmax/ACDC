@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: services
 permalink: /oven-repair
 title: Oven Repair Services
 subtitle: "Oven diagnostic and repair. Servicing all brands of dishwashers. We work in Dallas, TX and surrounding areas."
