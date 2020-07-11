@@ -1,11 +1,13 @@
-<section class="cities">
+<section>
     <div class="fixed-width-container">
-        <h2 class="section-headline section-headline__white">Our serving cities in Dallas, TX and surrounding areas</h2>
-        <ul class="big cities--list">
-            {% for city in site.data.city %}
-                <li>{{ city.city }}</li>
-            {% endfor %}
-        </ul>
+        <div class="card">
+            <h3 class="section-subheadline">Our serving cities in Dallas, TX and surrounding areas</h3>
+            <ul class="big four-column">
+                {% for city in site.data.city %}
+                    <li>{{ city.city }}</li>
+                {% endfor %}
+            </ul>
+        </div>
 
     </div>
 </section>
