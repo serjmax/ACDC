@@ -1,13 +1,15 @@
 ---
 layout: service
 permalink: /oven-repair
-title: Oven Repair Services
-subtitle: "Oven diagnostic and repair. Servicing all brands of dishwashers. We work in Dallas, TX and surrounding areas."
-keyword: Oven repair, diagnostic, Dallas, TX, Arlington, Irving, Denton, Lewisville, Plano, Carrollton, Frisco, Keller, Grapevine, Bedford, Euless, Southlake, Lake Dallas, Roanoke, Argyle, Hebron, Richardson, Corinth, Lantana, Copper Canyon, Highland Village, Double Oak, Watauga, Melody Hills, Richland Hills, North Richland Hills, Haltom City, Blue Mound
+title: Oven, Stove, Cooktop Repair
+subtitle: "Oven, stove, cooktop diagnostic and repair. Servicing all brands. We work in Dallas, TX and surrounding areas."
+keyword: Oven repair, stove repair, cooktop repair, diagnostic, Dallas, TX, Arlington, Irving, Denton, Lewisville, Plano, Carrollton, Frisco, Keller, Grapevine, Bedford, Euless, Southlake, Lake Dallas, Roanoke, Argyle, Hebron, Richardson, Corinth, Lantana, Copper Canyon, Highland Village, Double Oak, Watauga, Melody Hills, Richland Hills, North Richland Hills, Haltom City, Blue Mound
 ---
 
-<hr>
-{:.section-headline}
-## Oven repair Tips
+{:.pullquote}
+Broken cooktop, range or stove might ruin your daily kitchen routine. Don’t let this problem suck your energy – fix it!
 
-If your element is not heating up and nothing else on the oven, cooktop, or range is working then check the fuse or circuit breaker and test for power. If the power is on and the unit is getting power and you have standard surface burner element, test the surface burner and the burner switch. If you oven temperature doesn’t appear to be correct, make sure the controls are set properly and that the oven selector switch is set right and that the temperature switch is set to the desired temperature. Then test for voltage, there may be a problem with the oven thermostat or oven elements, call AC/DC Appliance Repair. And remember that your working with 220 volts, use extreme caution!
+{:.big}
+If your oven, cooktop, or range won’t work, first check the circuit breaker and test for power. If it’s on, test the surface purner (make sure you have a standard one) and the burner switch. If your oven temperature doesn’t look right, check if controls, oven selector and temperature switches are set in a proper way. If not, set temperature level to the desired one and test for voltage.
+<br><br>
+Or, instead of these steps, call AC/DC Appliance Repair! Mind that working with high voltage is dangerous, and calling a professional will be much safer.
