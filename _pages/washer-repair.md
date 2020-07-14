@@ -6,7 +6,9 @@ subtitle: "Washer diagnostic and repair. Servicing all brands of washers. We wor
 keyword: Washer repair, diagnostic, Dallas, TX, Arlington, Irving, Denton, Lewisville, Plano, Carrollton, Frisco, Keller, Grapevine, Bedford, Euless, Southlake, Lake Dallas, Roanoke, Argyle, Hebron, Richardson, Corinth, Lantana, Copper Canyon, Highland Village, Double Oak, Watauga, Melody Hills, Richland Hills, North Richland Hills, Haltom City, Blue Mound
 ---
 
-<br><br>
-<p class="pullquote">
-    Every one of your home appliances is vital to your every day life, but in the laundry room, nothing’s worse than a malfunctioning washing machine. As you know, every brand is different, not only on the outside, but on the inside as well. Luckily, we’ve been in the business for over 5 years, and not only do we know washing machines inside and out, but we understand how important your washer is to your family, and that’s why we’re proud to be known for the fast, friendly, dependable service that we’ve always provided. No matter the brand, we’ll be able to diagnose your unit, and give you the final quote for repair before we even begin, because we charge by the job, not by the hour. If your washing machine has decided to quit, and you need it repaired as quickly and efficiently as possible, just pick up the phone and give us a call to AC/DC Appliance Repair for try save your washer.
-</p>
+{:.pullquote}
+Who wants to kill time at the laundromat? No one! So, if your washer stopped working all of a sudden, you’d want it fixed fast.
+
+{:.big}
+Every home appliance in working order contributes to your daily routine, saving your time for work, hobbies, family & friends, and rest. It seems there is nothing worse than a broken washing machine. If you faced this problem, don’t you worry! We’ll diagnose and fix a washer of any brand, as fast as possible. You only need to pick up your phone and call to AC/DC Appliance Repair.
+
