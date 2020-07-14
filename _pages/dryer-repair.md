@@ -6,5 +6,8 @@ subtitle: "Dryer diagnostic and repair. Servicing all brands of dryers. We work 
 keyword: Dryer repair, diagnostic, Dallas, TX, Arlington, Irving, Denton, Lewisville, Plano, Carrollton, Frisco, Keller, Grapevine, Bedford, Euless, Southlake, Lake Dallas, Roanoke, Argyle, Hebron, Richardson, Corinth, Lantana, Copper Canyon, Highland Village, Double Oak, Watauga, Melody Hills, Richland Hills, North Richland Hills, Haltom City, Blue Mound
 ---
 
-{:.section-subheadline}
-### Are you in need of dryer repair in Dallas, TX or surrounding areas because of a faulty dryer? Turn to AC/DC Appliance Repair for a prompt response from highly trained professionals. Our service vehicles carry a broad range of parts and tools, which means we can often carry out successful repairs in just one visit. We can handle everything from preventative maintenance to emergency repairs, so reach out to AC/DC Appliance Repair today to get started.
+{:.pullquote}
+Is it not heating up? Or your clothes won’t dry? A faulty dryer is always a huge inconvenience that you want back on track fast.
+
+{:.big}
+If your dryer is faulty and you need a functional one, please contact AC/DC Appliance Repair in Dallas, TX. All our techs are professionals who can quickly identify the cause of malfunction and fix it. We bring all equipment, including tools and parts that need to be replaced, with us, which means we are able to repair your appliance in a single visit. We can deal with everything from preventative or routine maintenance to emergency repairs – don’t hesitate to contact us today.
