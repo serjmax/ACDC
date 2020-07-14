@@ -6,5 +6,8 @@ subtitle: "Refrigerator diagnostic and repair. Servicing all brands of refrigera
 keyword: Refrigerator repair, diagnostic, Dallas, TX, Arlington, Irving, Denton, Lewisville, Plano, Carrollton, Frisco, Keller, Grapevine, Bedford, Euless, Southlake, Lake Dallas, Roanoke, Argyle, Hebron, Richardson, Corinth, Lantana, Copper Canyon, Highland Village, Double Oak, Watauga, Melody Hills, Richland Hills, North Richland Hills, Haltom City, Blue Mound
 ---
 
-{:.section-subheadline}
-### We Service all Brands & Models. We Repair Built-In Refrigerators, French Door Refrigerators, Top/Bottom Refrigerators. We Repair Under Counter Ice Makers and Wine Cellars. Call us today for Service! We have Factory Trained Techs & are fully Insured. We will have your Refrigerator or Ice maker running like it should ASAP! We provide warranty on all our work!
+{:.pullquote}
+No human being can live without food. Neither hang on long without a fridge!
+
+{:.big}
+It doesn’t matter if you have the latest model of a brand new refrigerator or an old school one. We service all models and types of them: built-in, French door, and top/bottom-freezer ones, undercounter food freezers and even wine cellars. Feel free to call us! All our techs are trained and certified, they’ll make your fridge running in no time! Also, we provide guarantees for all our work. 
