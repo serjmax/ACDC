@@ -9,15 +9,16 @@
 }
 
 .cat-button{
-    font-size: 16px;
+    font-size: 12px;
+    font-weight: 500;
     background-color: var(--color-attention);
     border: none;
-    height: 54px;
+    height: 40px;
     display: inline-block;
     position: absolute;
     padding: 0 16px;
     margin-top: 4px;
-    line-height: 54px;
+    line-height: 40px;
     border-radius: 64px;
     color: white;
     right: 0;
@@ -33,7 +34,7 @@
         position: fixed;
         width: 100vw;
         padding: 0 16px;
-        height: 64px;
+        height: 54px;
         bottom: 16px;
         margin: 0;
         top: auto;
@@ -45,5 +46,8 @@
         bottom: auto;
         margin: 0;
         right: unset;
+        font-size: 16px;
+        height: 54px;
+        line-height: 54px;
     }
 }
