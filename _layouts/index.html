@@ -4,168 +4,72 @@ layout: "wrapper"
 
 <main role="main" class="main">
 
-    <!-- CAT -->
-    <div class="cat-button-container">
-        <a id="cat-button__id-main" href="tel:(469) 730-0301" class="header--button">
-            CALL US NOW (469) 730-0301
-        </a>
-    </div>
+    <!-- CAT BUTTON -->
+    {% include cat-button.html %}
 
-    <!-- BG HERO -->
-    <div class="bg-hero"></div>
+    <article>
 
-    <!-- HEADER -->
-    <header class="main--header">
-        <div class="fixed-width-container main--header--block">
-            <h1 class="main--lead">{{ page.title }}</h1>
-            <p class="main--descriptor">We repair fast and professional: <a class="main--header-link" href="/refrigerator-repair">refrigerators</a>, <a class="main--header-link" href="freezer-repair">freezers</a>, <a class="main--header-link" href="/dishwasher-repair">dishwashers</a>, <a class="main--header-link" href="/oven-repair">ovens</a>, <a class="main--header-link" href="/microwave-repair">microwaves</a>, <a class="main--header-link" href="/dryer-repair">dryers</a>, <a class="main--header-link" href="/cooktop-repair">cooktops</a>  and <a class="main--header-link" href="washer-repair">washing machines</a>. Work in Dallas, TX and surrounding areas.</p>
-        </div>
-    </header>
+        <!-- HERO -->
+        {% include hero.html %}
 
-    <!-- CITIES -->
-    <div class="main--cities">
-        <div class="fixed-width-container">
-            <p>Our serving cities in Dallas, TX and surrounding areas</p>
-            <p class="cities--list">
-                {% for city in site.data.city %}
-                    {{ city.city }}
-                    <br>
-                {% endfor %}
-            </p>
+        <!-- OPENER -->
+        {% include opener.html %}
 
-        </div>
-    </div>
+        <!-- SERVICES ICONS -->
+        {% include services-icon-set.html %}
 
-    <!-- BENEFITS -->
-    <div class="main--benefits">
-        <div class="fixed-width-container">
-            <h2 class="benefits-title">Our benefits</h2>
+        <!-- TRUST -->
+        {% include trust.html %}
 
-            <div class="benefits-list">
+        <!-- BENEFITS -->
+        {% include benefits.html %}
 
-                <div class="benefits-block">
-                    <img class="benefits-image" src="/assets/svg/$70.svg" alt="">
-                    <h3 class="benefit-title">Cost regular appliance diagnostic</h3>
-                    <p class="benefits-text"></p>
-                </div>
+        <!-- CITIES -->
+        {% include cities.html %}
 
-                <div class="benefits-block">
-                    <img class="benefits-image" src="/assets/svg/free.svg" alt="">
-                    <h3 class="benefit-title">If you decide to repair, diagnostic for free</h3>
-                    <p class="benefits-text">AC/DC HVAC & Appliance repair makes your money matter by giving you a free estimate if you decide to repair it. Rest assured, you won’t be charged extra for our trip out. Now that’s customer service!</p>
-                </div>
+        <!-- PRICE RANGE -->
+        {% include price-range.html %}
 
-                <div class="benefits-block">
-                    <img class="benefits-image" src="/assets/svg/warranty.svg" alt="">
-                    <h3 class="benefit-title">6-month warranty</h3>
-                    <p class="benefits-text">AC/DC HVAC & Appliance repair provide 6-month warranty covering all parts changed out by AC/DC HVAC & Appliance repair and our full labor for 6-month. 12 months warranty for refrigeration and HVAC jobs</p>
-                </div>
-
-                <div class="benefits-block">
-                    <img class="benefits-image" src="/assets/svg/same-day-sevice.svg" alt="">
-                    <h3 class="benefit-title">Same-day service, 7 days a week</h3>
-                    <p class="benefits-text">We provide same-day service, 7 days a week.  We are sure to have someone in your area the moment you call in with an appliance repair need. We work every day 8 am — 8 pm.</p>
-                </div>
-
+        <!-- INDEX -->
+        <!-- {% include services-index.html %} -->
+        <section>
+            <div class="fixed-width-container">
+                <hr>
+                <h2 class="section-headline">List of services on this page</h2>
+                <ol>
+                    <li><a href="#refrigerator">Refrigerator and Freezer</a></li>
+                    <li><a href="#dryer">Clothes Dryer</a></li>
+                    <li><a href="#washer">Washing Machine</a></li>
+                    <li><a href="#dishwasher">Dishwasher</a></li>
+                    <li><a href="#oven">Oven, Range and Cooktop</a></li>
+                    <li><a href="#microwave">Microwave</a></li>
+                </ol>
             </div>
+        </section>
 
-        </div>
-    </div>
 
-    <!-- TRUST -->
-    <div class="main--trust">
-        <div class="fixed-width-container">
-            <h2 class="trust-title">
-                No Need to Buy New Appliances
-                <br>
-                Trust Our Professional Repair trust
-            </h2>
-            <div class="trust-text-block">
-                <p class="trust-text">Your perfect solution for accurate, immediate and professional help with all of your major appliances. AC/DC HVAC & Appliance repair has over 8 years of experience servicing the Dallas, TX and surrounding areas.
-                </p>
-                <p class="trust-text">Our technicians are highly trained and certified professionals. They are knowledgeable and experienced in repairing all brands and models of all major appliances.
-                </p>
-            </div>
+        <!-- REFRIGERATOR -->
+        <a name="refrigerator"></a>
+        {% include refrigerator.html %}
 
-            <div class="trust-list">
+        <!-- DRYER -->
+        <a name="dryer"></a>
+        {% include dryer.html %}
 
-                <div class="trust-block">
-                    <img class="trust-block-image" src="/assets/svg/trained.svg" alt="Trained Techs">
-                    <div class="">
-                        <h3 class="trust-block-title">Trained Techs</h3>
-                        <p class="trust-block-text">
-                            New training in the office every two weeks.
-                            <br>
-                            EPA certified techs.
-                        </p>
-                    </div>
-                </div>
+        <!-- WASHER -->
+        {% include washer.html %}
 
-                <div class="trust-block">
-                    <img class="trust-block-image" src="/assets/svg/insured.svg" alt="">
-                    <div class="">
-                        <h3 class="trust-block-title">Insured</h3>
-                        <p class="trust-block-text">
-                            General Liability.
-                            <br>
-                            Workers Compensation Insurance.
-                        </p>
-                    </div>
-                </div>
+        <!-- DISHWASHER -->
+        {% include dishwasher.html %}
 
-                <div class="trust-block trust-block__wide">
-                    <img class="trust-block-image" src="/assets/svg/call-assistant.svg" alt="">
-                    <div class="">
-                        <h3 class="trust-block-title">Call assistant</h3>
-                        <p class="trust-block-text">Don’t hesitate to call in, we have customer service representatives standing by waiting to assist you. We pride ourselves on being the best appliance repair service in Dallas, TX and surrounding areas.</p>
+        <!-- OVEN -->
+        {% include oven.html %}
 
-                    </div>
-                </div>
+        <!-- MICROWAVE -->
+        {% include microwave.html %}
 
-            </div>
-        </div>
-    </div>
+        <!-- SERVICES  -->
+        {% include services.html %}
 
-    <!-- SERVICES  -->
-    <div class="main--services">
-        <div class="fixed-width-container">
-            <h2 class="services-title">
-                We do residential appliance repair, commercial appliance repair, industrial appliance repair and HVAC repair in Dallas, TX and surrounding areas
-            </h2>
-            <p class="services--list">
-                    Oven Repair
-                <br>Cooktop Repair
-                <br>Microwave Repair
-                <br>Washer Repair
-                <br>Dryer Repair
-                <br>Dishwasher Repair
-                <br>Refrigerator Repair
-                <br>Freezer Repair
-                <br>Wine Cooler Repair
-                <br>Double Oven Repair
-                <br>Range/Stove Repair
-            </p>
-
-            <h3 class="services-subtitle">Commercial Appliance Repair AC/DC HVAC & Appliance Repair </h3>
-            <p class="services--list services--list__wide">
-                    Commercial Refrigerator Repair
-                <br>Commercial Freezer Repair
-                <br>Commercial Oven Repair
-                <br>Commercial Cooktop Repair
-                <br>Commercial Microwave Repair
-                <br>Commercial Dishwasher Repair
-                <br>Commercial Pizza Oven Repair
-                <br>Ice Machine Repair
-            </p>
-
-            <h3 class="services-subtitle">Industrial Appliance Equipment Repair in AC/DC HVAC & Appliance Repair</h3>
-            <p class="services--list">
-                    Walk-in Cooler Repair
-                <br>Walk-in Freezer Repair
-                <br>Industrial Oven Repair
-                <br>Industrial Microwave Repair
-                <br>Walk-in Oven Repair
-            </p>
-        </div>
-    </div>
+    </article>
 </main>

@@ -33,6 +33,9 @@ plugins:
   - jekyll-feed
 sass:
     style: compressed
+    sourcemap: always
+
+include: ['_pages']
 
 # Exclude from processing.
 # The following items will not be processed, by default.

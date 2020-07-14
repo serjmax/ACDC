@@ -3,27 +3,22 @@
 <head>
     <style>
         h1{
-            font-family: Repro-Regular, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-            font-size: 46px;
-            line-height: 56px;
             color: var(--color-primary);
-            margin: 0;
         }
 
         .bg-hero{
             position: absolute;
-            height: 800px;
+            height: inherit;
             width: 100%;
             background-image: url(/assets/images/bg-image-2.webp);
             background-size: cover;
             z-index: -1;
+            opacity: 0.2;
+            border-bottom: solid 1px;
         }
 
         @media screen and (max-width: 960px){
             .bg-hero{
-                width: 100vw;
-                height: 100vh;
-                overflow: hidden;
                 background-image: url(/assets/images/bg-image-2_mobile.webp);
             }
         }
@@ -48,16 +43,15 @@
     </script>
     <!-- End Google Tag Manager -->
 </head>
-<body>
+<body class="wrapper">
     <!-- Google Tag Manager (noscript) -->
     <noscript>
         <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W3WPCD4" height="0" width="0" style="display:none;visibility:hidden"></iframe>
     </noscript>
     <!-- End Google Tag Manager (noscript) -->
-    <div class="wrapper">
-        {% include header.html %}
-        {{ content }}
-        {% include footer.html %}
-    </div>
+
+    {% include navigation.html %}
+    {{ content }}
+    {% include footer.html %}
 </body>
 </html>
