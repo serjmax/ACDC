@@ -8,7 +8,8 @@
     --color-attention: #ff3e50;
     --color-attention__hover: #e32a44;
     --color-blue: #001eaa;
-    --color-light-blue: #3451a8;
+    --color-light-blue: #001F92;
+    --color-green: #e5fb3b;
 
     --fixed-width: 944px;
     --BODY-size: 16px;
@@ -21,7 +22,7 @@
     -moz-osx-font-smoothing: grayscale;
     line-height: var(--BODY-height);
     font-size: 100%;
-    color: var(--color-primary);
+    // color: var(--color-primary);
 }
 
 body{
@@ -78,9 +79,6 @@ h1, h2, h3, h4{
     margin: 0;
 }
 
-h1, h2{
-    text-transform: uppercase;
-}
 
 p.big{
     font-size: 1em; // 16px
@@ -114,11 +112,11 @@ p.pullquote{
 hr{
     display: block;
     width: 80px;
-    height: 6px;
+    height: 4px;
     margin-bottom: 0px;
     background-color: var(--color-light-blue);
     border: none;
-    margin: 0 0 16px 0;
+    margin: 0 0 32px 0;
     padding: 0;
 }
 
