@@ -6,7 +6,8 @@ subtitle: "Microwave diagnostic and repair. Servicing all brands of microwaves. 
 keyword: Microwave repair, diagnostic, Dallas, TX, Arlington, Irving, Denton, Lewisville, Plano, Carrollton, Frisco, Keller, Grapevine, Bedford, Euless, Southlake, Lake Dallas, Roanoke, Argyle, Hebron, Richardson, Corinth, Lantana, Copper Canyon, Highland Village, Double Oak, Watauga, Melody Hills, Richland Hills, North Richland Hills, Haltom City, Blue Mound
 ---
 
-## Microwave won’t heat? Call AC/DC Appliance Repair!
+{:.pullquote}
+If your microwave broke down, a pile of dirty plates keeps growing and won’t let you rest. Don’t deal with it, especially when you can trust fixing it to pros.
 
-{:.section-subheadline}
-### Microwave won’t heat? Is there no power to your microwave? Microwave oven door won’t open? Microwave touch pad won’t do anything? Light burned out in your microwave? Does your microwave spark?<br><br>If you answered yes to any of these questions or have another microwave problem, call AC/DC Appliance Repair. Our owner answers the phone every time you call, and we strive to  work around our customer’s busy schedule. When you’re microwave won’t heat, make the right call the first time.  Call AC/DC Appliance Repair.
+{:.big}
+So, you’ve faced a problem with you microwave. Is there no light or no power to it? Probably, the oven door won’t open? Or buttons on the sensor panel aren’t working? If the problem you’re looking for is mentioned above, or if you have another one, call AC/DC Appliance Repair anyway. We will help!
