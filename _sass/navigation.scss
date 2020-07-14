@@ -16,7 +16,7 @@ nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 15px 0;
+    margin: 9px 0;
 }
 
 .nav--contact-name{
@@ -35,6 +35,11 @@ nav{
     // margin: 16px 0;
 }
 
+#logotype{
+    height: 32px;
+    fill: var(--color-light-blue);
+}
+
 .nav-link--name{
     margin-left: 16px;
     text-transform: uppercase;
@@ -51,10 +56,6 @@ nav{
         position: sticky;
         top: -33px;
     }
-    nav{
-        width: 100%;
-        margin-right: none;
-    }
 
     .nav--container{
         flex-direction: column;
@@ -62,23 +63,26 @@ nav{
     }
 
     .nav-link{
+        margin-bottom: 8px;
         margin-left: 16px;
+
     }
 
     .nav-link--name{
         font-size: 12px;
         line-height: 15px;
         margin-left: 4px;
+        margin-top: -9px;
+        width: 122px;
     }
 
     .nav-menu{
+        border-top: solid 1px #e6e6e6;
+        width: 100%;
         padding-top: 4px;
         padding-bottom: 5px;
-        width: 100%;
         margin: 0;
-        width: Calc(100% - 32px);
-        margin: 0 16px;
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
 
     .nav--contact-name{
@@ -88,6 +92,10 @@ nav{
     .nav-link--image{
         height: 24px;
         margin-left: 16px;
+    }
+
+    #logotype{
+        height: 24px;
     }
 }
 
