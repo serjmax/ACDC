@@ -1,13 +1,12 @@
 .hero{
-    height: 576px;
+    height: 368px;
     padding-top: 64px;
     margin-bottom: 64px;
 
     h1{
-        font-size: 6.854em;
-        line-height: 96px;
-        margin-top: -21px;
-        text-transform: uppercase;
+        font-size: 4.236em;
+        line-height: 79px;
+        margin-top: -5px;
         width: 1px;
     }
 
@@ -32,7 +31,7 @@
         .header{
             display: flex;
             align-items: center;
-            height: Calc(100vh - 178px);
+            height: 100%;
             width: Calc(100% - 32px);
             padding-top: 0;
             margin: 0 16px;
