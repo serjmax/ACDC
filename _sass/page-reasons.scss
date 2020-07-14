@@ -30,4 +30,8 @@
     .reasons--table-cell {
         width: Calc(50vw - 32px);
     }
+
+    .reasons--table-ol li::before{
+        margin-top: 8px;
+    }
 }
