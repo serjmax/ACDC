@@ -78,11 +78,13 @@ nav{
 
     .nav-menu{
         border-top: solid 1px #e6e6e6;
-        width: 100%;
+        width: Calc(100% - 32px);
         padding-top: 4px;
         padding-bottom: 5px;
         margin: 0;
-        justify-content: space-evenly;
+        justify-content: inherit;
+        padding-left: 16px;
+        padding-right: 16px;
     }
 
     .nav--contact-name{
