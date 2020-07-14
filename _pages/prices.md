@@ -10,19 +10,8 @@ keyword: Prices AC/DC HVAC & Appliance Repair
 <section>
     <div class="fixed-width-container">
         <div class="col-8">
-            <h2 class="page--quote">Our policy “NO satisfaction – NO charge”</h2>
-            <h3>Heating ventilation and air conditioning</h3>
-            <div class="prices--fee--container">
-                <div class="prices--fee--new-price">
-                    <p class="prices--fee--text">Service call fee</p>
-                    <p class="prices--fee--text">NEW PRICE $70</p>
-                </div>
-                <p class="prices--fee--old-price">OLD PRICE $110</p>
-            </div>
-            <p class="page--text page--text-explanation">
-                Minimum labor fee – $185 if you decide to fix. Labor price depends on by suffer score of repair (location of equipment, the hardness of the problem and etc).
-            </p>
-            <h3 class="prices--h3">Residential and commercial appliances</h3>
+            <h2 class="section-headline">Our policy “NO satisfaction – NO charge”</h2>
+            <h3 class="section-subheadline">Residential and commercial appliances</h3>
             <div class="prices--fee--container">
                 <div class="prices--fee--new-price">
                     <p class="prices--fee--text">Service call fee</p>
@@ -30,18 +19,30 @@ keyword: Prices AC/DC HVAC & Appliance Repair
                 </div>
                 <p class="prices--fee--old-price">OLD PRICE $90</p>
             </div>
-            <p class="page--text page--text-explanation">
+            <p class="big">
                 Minimum labor fee – $185 if you decide to fix. Labor price depends on by suffer score of repair (location of equipment, the hardness of the problem and etc).
             </p>
-            <h3 class="prices--h3">Cost Labor. Average prices without parts, discounts and coupons</h3>
-            <p class="page--text page--text-explanation">
+            <h3 class="section-subheadline" >Heating ventilation and air conditioning</h3>
+            <div class="prices--fee--container">
+                <div class="prices--fee--new-price">
+                    <p class="prices--fee--text">Service call fee</p>
+                    <p class="prices--fee--text">NEW PRICE $70</p>
+                </div>
+                <p class="prices--fee--old-price">OLD PRICE $110</p>
+            </div>
+            <p class="big">
+                Minimum labor fee – $185 if you decide to fix. Labor price depends on by suffer score of repair (location of equipment, the hardness of the problem and etc).
+            </p>
+            <h3 class="section-subheadline">Cost Labor. Average prices without parts, discounts and coupons</h3>
+            <p class="big">
                 We will NOT CHARGE  you for labor if the problem will be just with circuit breakers, lost power, a damaged power outlet, clogged sewerage, etc. 
                 <br><br> Sometimes repair requires two-three technicians +$90 each tech per hour (a minimum 2 hours each tech).
                 <br><br> Jobs higher than 3 1/2 ft will cost you 1.5 coefficient of charge.
                 <br><br> Discounts cover installations.
                 <br><br> Minimum Labor Fee – $165 if you decide to fix it.
             </p>
-            <h2 class="page--quote">In 70-80% of cases, as a rule, the breakdown is insignificant and a charge will be about $165-195</h2>
+            <br>
+            <p class="pullquote">In 70-80% of cases, as a rule, the breakdown is insignificant and a charge will be about $165-195</p>
             <div class="page--table--container">
                 <div class="page--table--row">
                     <div class="page--table-cell"><p>Refrigerator Repair Cost Labor</p></div>
