@@ -71,7 +71,7 @@ h3.section-subheadline{
 
 h4.section-label{
     font-size: 1em;
-    margin-top: 8px;
+    margin-top: 24px;
 }
 
 h1, h2, h3, h4{
@@ -107,6 +107,10 @@ p.pullquote{
     line-height: 32px;
     margin-top: Calc(6px - 9px);
     margin-bottom: 12px;
+}
+
+h4+p{
+    margin-top: 3px !important;
 }
 
 hr{
