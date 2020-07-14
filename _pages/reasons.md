@@ -10,6 +10,7 @@ sublitle: 85 reasons to book AC/DC HVAC & Appliance Repair
 <section>
     <div class="fixed-width-container">
         <div class="col-8">
+            <hr>
             <p class="pullquote">
                 “Choose us!” so many companies tell you and there’s usually a cause why you listen or why you don’t. But we have the reason to say that we are the best company for appliances and HVAC repairing and installation. Or, more precisely,  85 reasons.<br><br> PS: and 86 reason:  we have 85 reasons buy our services and zero against.
             </p>
