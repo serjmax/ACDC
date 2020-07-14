@@ -10,6 +10,7 @@ keyword: Prices AC/DC HVAC & Appliance Repair
 <section>
     <div class="fixed-width-container">
         <div class="col-8">
+            <hr>
             <h2 class="section-headline">Our policy “NO satisfaction – NO charge”</h2>
             <h3 class="section-subheadline">Residential and commercial appliances</h3>
             <div class="prices--fee--container">
@@ -35,7 +36,7 @@ keyword: Prices AC/DC HVAC & Appliance Repair
             </p>
             <h3 class="section-subheadline">Cost Labor. Average prices without parts, discounts and coupons</h3>
             <p class="big">
-                We will NOT CHARGE  you for labor if the problem will be just with circuit breakers, lost power, a damaged power outlet, clogged sewerage, etc. 
+                We will <strong>NOT CHARGE</strong>  you for labor if the problem will be just with circuit breakers, lost power, a damaged power outlet, clogged sewerage, etc.
                 <br><br> Sometimes repair requires two-three technicians +$90 each tech per hour (a minimum 2 hours each tech).
                 <br><br> Jobs higher than 3 1/2 ft will cost you 1.5 coefficient of charge.
                 <br><br> Discounts cover installations.
