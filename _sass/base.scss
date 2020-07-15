@@ -160,6 +160,17 @@ li{
     }
 }
 
+.link{
+    &--white{
+        &__muted{
+            color: var(--color-white-60);
+            &:hover{
+                color: var(--color-white)
+            }
+        }
+    }
+}
+
 section{
     padding: 16px 16px 32px 16px;
 }
