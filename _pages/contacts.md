@@ -15,7 +15,7 @@ sublitle: Contact AC/DC HVAC & Appliance Repair
             <div class="card">
                 <p class="big">Our address:  2248 Central Dr, Bedford, 76021, TX
                     <br>
-                    Phone: (469) 730-0301
+                    Phone: +14694982099
                     <br>
                     E-mail: support@acdcappliancerepair.com
                     <br>
