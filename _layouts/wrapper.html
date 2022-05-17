@@ -47,12 +47,12 @@
 </head>
 <body class="wrapper">
     <!-- Google Tag Manager (noscript) -->
-    <noscript>
+    <!-- <noscript>
         <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W3WPCD4" height="0" width="0" style="display:none;visibility:hidden"></iframe>
-    </noscript>
+    </noscript> -->
     <!-- End Google Tag Manager (noscript) -->
 
-    {% include navigation.html %}
+    <!-- {% include navigation.html %}
     {{ content }}
     {% include footer.html %}
     <script>
@@ -60,6 +60,16 @@
                 var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/60000|0);
                 var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
         })(window,document,'https://cdn-ru.bitrix24.ru/b17945132/crm/site_button/loader_2_mzs9f6.js');
-    </script>
+    </script> -->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-0E9M4F81L6"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-0E9M4F81L6');
+        </script>
 </body>
 </html>
